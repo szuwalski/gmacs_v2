@@ -1,0 +1,139 @@
+Tracking down differences in reference points:
+THERE IS A BIG DIFFERENCE IN SIZE TRANSITION MATRICES BETWEEN GMACS AND SQ MODELS
+ many more crab stay inthe same size bin--check the variance on growth increment, adjust/estimate the scale parameter
+ timing of when MMB is calculated?
+
+Keep using gmacs -phse 6 >a.1 to figure out what's going on with the REF POINTS calcs
+
+Changed how things were mirrored: Must mirror before inside or else inside selectivity gets overwritten.
+
+Problem is that Bzero and B35 are the same for some reason...
+
+CHECK HOW THE LENGTH COMPS ARE BEING CALCULATED...THIS DOESN'T CONSIDER MATURITY YET.
+TRY TO AGGREGATE THE MATURE AND IMMATURE--i think that's what's happening right now anyway
+
+FIX the PLOTTING FUNCTION for size comps to deal with immature vs mature
+
+Fix the text saying 50-55% of retained catch are discarded (should be % of total catch are discarded)
+
+PROBLEM: CALCULATING MMB IN A WEIRD WAY. TRY DOING IT NOT BASED ON LOGISTIC, BUT BASED ON A YEARLY PROP MATURE.
+
+How to mimick the way BSFRf?
+ add 4 fleets: 2009, 2010, NMFS, BSFRF
+ estimate parameter vector for BSFRF fleet selectivity
+ mirror NMFS selectivity for NMFS
+ DOES THAT INCLUDE Q????
+ Can I mirror Q for indices?
+ If not, I should put Q in 'get selectivity', instead of 'get index'
+ Can keep the same Q by giving the same 'index', but a different fleet for selectivity (this is crazy)
+
+MAKE:
+ a file from survey data that has numbers at length by sex and year to make the ridgeline plots
+
+TEMP FIX WAS TO ALLOW ONLY TRAWL SELX TO NOT BE 1 IN LARGEST BIN
+FIX THIS FOR REAL LATER 
+
+Discard mortality is applied to numbers, then scaled to biomass in Jack's code.
+
+Something to do with the way discards and mortality/selectivity are calculated.
+
+try to comment out the discard portion of the 'vul' in gmacs?
+
+Trawl selectivity is forcing max to 1.
+Fixed this by commenting some code out. 
+Will need to make an option for selectivity that requires that.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Perhaps the retained and total selectivity are reversed from jack's code to gmacs?
+
+Total selectivity is the same-ish.
+Retained is not.
+Trawl is not.
+
+
+Jacks code:
+ all mortality occurs for the year
+ then growth occurs
+ then maturity is evaluated based on those 
+ 
+Why woudl this ake a difference for males and not females?
+ Females are subject to very little F?
+ Timing of male growth can impact how many are available to the fishery?
+ This would explain why a bunch are in GMACS, but not in 
+
+
+rec_sdd (size at recruitment) is close, but not exact (to 3 decimal places) and I do not know why.
+
+Is the bloop for males because of when growth occurs relative to the fishery?
+Or because of when the n matrices are output?
+or is it a selectivity problem?
+
+
+Big changes--standarad logistic selectivity was logistic95 in most recent version of code
+
+Index is mature first! important for natural mortality
+
+Add in for comparison:
+ immature/mature natural mortality
+
+ change to 4darray
+ estimate multiplier for immature
+ add estimated parameter
+ change ctl file in the 
+ modify calc_natural_mortality
+
+GOTTA FIX CATCH PREDICTIONS
+Fix M and Z in project one year ahead and stock recruit and OFL and brute equil
+ currently they have the maturity index hard coded to 1 for testing
+
+Calc predicted catch (+ _out) too--search for "Z(" to find instance and make sure they are not hard coded
+
+
+
+
+Add in for fitting:
+ different survey q by sex
+
+Set a .PIN file based on not_gmacs
+Run one function call
+Compare the N matrices
+
+Check timing of different processes between models
+
+fix calc size comps function so they can be split out by maturity/shell
+
+tALK TO PEOPLE ABOUT FEMALE DISCARDS--selectivity is so much different and hard to figure out 'total' selectivity and 'female' selectivity
+ I don't understand the mechanism here.
+ it seems like this suggests that selectivity means 'availability' here...and there is targeting
+
+Check to see the timing of molting maturity between the two models:
+ is the probability of maturity from 2016sc based on the postmolt or premolt?
+
+shell_force: does not have terminal molt, uses shell condition to get in mature/immmature
+comp_n: trying to match output in not_gmacs_2, uses code from term_molt
+not_gmacs_2: current assessment code, but using simplified assumptions (single recdevs, etc.)
+term_molt: introduces terminal molt to GMACS
+
+
+
+Errors to build in:
+ nmature and nshell cannot both be 2
+
+processes:
+ recruitment (sex ratio equal, calculate initial recruitment from estimated initial N)
+ recruit at size (output the proportions per bin, estimate parameters based on gmacs code)
+ selectivity (get parameters in the same space)
+ growth (input growth increments; might have to calculate the 
+ fishing mortality (where do I input this?)
+ molting probability (input)
+ natural mortality 
+
+
+Start thinking about steps to get assessment running:
+  managment output
+  how to incorporate growth (skip to linear after you show GMACS can reproduce dynamics)
+  how to incorporate BSFRF data
+  how to incorporate maturity data
+
+
+

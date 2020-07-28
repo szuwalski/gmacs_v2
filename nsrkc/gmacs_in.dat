@@ -1,0 +1,584 @@
+# syr
+1976
+# nyrRetro
+2019
+# nseason
+7
+# nfleet
+3
+# nsex
+1
+# nshell
+2
+# nmature
+1
+# nclass
+8
+# season_recruitment
+6
+# season_growth
+6
+# season_ssb
+6
+# season_N
+1
+# nSizeSex
+ 8
+# size_breaks
+ 64 74 84 94 104 114 124 134 144
+# Natural mortality per season input type (1 = vector by season, 2 = matrix by season/year)
+ 2
+# Proportion of the total natural mortality to be applied each season
+ 0 0.4167 0 0.2055 0 0.0445 0.3333 # 1976
+ 0 0.466 0 0.0659 0.0327 0.1021 0.3333 # 1977
+ 0 0.5591 0 0 0.0054 0.1022 0.3333 # 1978
+ 0 0.5043 0 0 0.0602 0.1022 0.3333 # 1979
+ 0 0.4824 0 0.0494 0.0327 0.1022 0.3333 # 1980
+ 0 0.5126 0 0.0193 0.0327 0.1021 0.3333 # 1981
+ 0 0.5674 0 0.0411 0 0.0582 0.3333 # 1982
+ 0 0.5126 0 0.0193 0.0327 0.1021 0.3333 # 1983
+ 0 0.5263 0 0.0056 0.0327 0.1021 0.3333 # 1984
+ 0 0.5345 0 0.1151 0 0.0171 0.3333 # 1985
+ 0 0.5701 0 0 0 0.0966 0.3333 # 1986
+ 0 0.5235 0 0.0084 0.0327 0.1021 0.3333 # 1987
+ 0 0.5263 0 0.0384 0 0.102 0.3333 # 1988
+ 0 0.5126 0 0.0193 0.0327 0.1021 0.3333 # 1989
+ 0 0.5153 0 0.0166 0.0327 0.1021 0.3333 # 1990
+ 0 0.4167 0 0.1562 0 0.0938 0.3333 # 1991
+ 0 0.5098 0 0.022 0.0327 0.1022 0.3333 # 1992
+ 0 0.5098 0 0.022 0.0327 0.1022 0.3333 # 1993
+ 0 0.4605 0 0.0714 0.0327 0.1021 0.3333 # 1994
+ 0 0.5098 0 0.022 0.0327 0.1022 0.3333 # 1995
+ 0 0.518 0 0.0164 0.0301 0.1022 0.3333 # 1996
+ 0 0.4906 0 0.0412 0.0327 0.1022 0.3333 # 1997
+ 0 0.5263 0 0.0056 0.0327 0.1021 0.3333 # 1998
+ 0 0.5208 0 0 0.0438 0.1021 0.3333 # 1999
+ 0 0.5427 0 0 0.0219 0.1021 0.3333 # 2000
+ 0 0.5208 0 0.0111 0.0327 0.1021 0.3333 # 2001
+ 0 0.4769 0 0.0274 0.0602 0.1022 0.3333 # 2002
+ 0 0.4742 0 0.0577 0.0327 0.1021 0.3333 # 2003
+ 0 0.4495 0 0.0823 0.0327 0.1022 0.3333 # 2004
+ 0 0.4742 0 0.0577 0.0327 0.1021 0.3333 # 2005
+ 0 0.4687 0 0.0356 0.0602 0.1022 0.3333 # 2006
+ 0 0.4523 0 0.0796 0.0327 0.1021 0.3333 # 2007
+ 0 0.4961 0 0.011 0.0575 0.1021 0.3333 # 2008
+ 0 0.5071 0 0.0248 0.0327 0.1021 0.3333 # 2009
+ 0 0.4906 0 0.0164 0.0575 0.1022 0.3333 # 2010
+ 0 0.455 0 0.0493 0.0602 0.1022 0.3333 # 2011
+ 0 0.5098 0 0.022 0.0327 0.1022 0.3333 # 2012
+ 0 0.5263 0 0.0056 0.0327 0.1021 0.3333 # 2013
+ 0 0.4687 0 0.0137 0.0821 0.1022 0.3333 # 2014
+ 0 0.4495 0 0.0823 0.0327 0.1022 0.3333 # 2015
+ 0 0.4413 0 0.0905 0.0327 0.1022 0.3333 # 2016
+ 0 0.4441 0 0.063 0.0575 0.1021 0.3333 # 2017
+ 0 0.4468 0 0.0384 0.0794 0.1021 0.3333 # 2018
+ 0 0.4852 0 0 0.0301 0.1514 0.3333 # 2019
+# fleetname
+Winter_Com
+Summer_Com
+ADFG_Trawl
+#Season type: Set to 1 for continuous F and 0 for instantanous F
+ 1 1 1 1 1 1 1
+# nCatchDF
+3
+# Number of lines for each group (this is not correct for retrospective analyses)
+ 42 42 42
+## Sex: 1 = male, 2 = female, 0 = both
+## Type of catch: 1 = retained, 2 = discard, 0 = total
+## Units of catch: 1 = biomass, 2 = numbers
+## Mult: 1= use data as they are, 2 = multiply by this number (e.g., lbs to kg)
+# Year Season Fleet Sex Obs CV Units Mult Effort Discard_mortality
+ 1978 1 1 1 22.131 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1979 1 1 1 0.445 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1980 1 1 1 0.235 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1981 1 1 1 0.36 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1982 1 1 1 1.305 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1983 1 1 1 10.981 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1984 1 1 1 12.076 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1985 1 1 1 9.545 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1986 1 1 1 9.22 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1987 1 1 1 6.812 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1988 1 1 1 3.149 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1989 1 1 1 6.529 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1990 1 1 1 15.778 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1991 1 1 1 11.166 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1992 1 1 1 19.214 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1993 1 1 1 2.885 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1994 1 1 1 9.866 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1995 1 1 1 12.964 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1996 1 1 1 3.457 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1997 1 1 1 0.828 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1998 1 1 1 9.606 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1999 1 1 1 10.247 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2000 1 1 1 8.768 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2001 1 1 1 1.354 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2002 1 1 1 4.768 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2003 1 1 1 10.993 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2004 1 1 1 1.703 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2005 1 1 1 6.094 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2006 1 1 1 1.314 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2007 1 1 1 14.003 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2008 1 1 1 15.281 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2009 1 1 1 9.703 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2010 1 1 1 11.878 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2011 1 1 1 10.005 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2012 1 1 1 16.468 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2013 1 1 1 30.261 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2014 1 1 1 18.238 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2015 1 1 1 48.697 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2016 1 1 1 35.132 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2017 1 1 1 32.047 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2018 1 1 1 13.604 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 2019 1 1 1 2.59 0.03 1 2 1 0 0.2 # Winter_Com_male_retained
+ 1978 1 1 1 34.679 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1979 1 1 1 0.697 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1980 1 1 1 0.368 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1981 1 1 1 0.564 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1982 1 1 1 2.045 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1983 1 1 1 17.207 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1984 1 1 1 17.138 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1985 1 1 1 12.257 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1986 1 1 1 14.056 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1987 1 1 1 8.74 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1988 1 1 1 4.13 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1989 1 1 1 8.468 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1990 1 1 1 21.599 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1991 1 1 1 14.09 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1992 1 1 1 24.641 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1993 1 1 1 3.137 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1994 1 1 1 11.739 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1995 1 1 1 18.581 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1996 1 1 1 6.045 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1997 1 1 1 1.797 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1998 1 1 1 22.647 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1999 1 1 1 14.488 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2000 1 1 1 15.039 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2001 1 1 1 1.936 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2002 1 1 1 11.211 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2003 1 1 1 24.036 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2004 1 1 1 2.56 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2005 1 1 1 9.946 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2006 1 1 1 2.209 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2007 1 1 1 28.09 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2008 1 1 1 30 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2009 1 1 1 14.234 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2010 1 1 1 15.183 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2011 1 1 1 13.837 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2012 1 1 1 25.546 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2013 1 1 1 85.455 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2014 1 1 1 30.402 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2015 1 1 1 62.63 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2016 1 1 1 42.553 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2017 1 1 1 38.128 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2018 1 1 1 17.734 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 2019 1 1 1 3.497 0.04 0 2 1 0 0.2 # Winter_Com_male_total
+ 1977 3 2 1 195.877 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1978 3 2 1 660.829 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1979 3 2 1 970.962 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1980 3 2 1 329.778 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1981 3 2 1 376.313 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1982 3 2 1 63.949 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1983 3 2 1 132.205 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1984 3 2 1 139.759 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1985 3 2 1 146.669 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1986 3 2 1 162.438 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1987 3 2 1 103.338 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1988 3 2 1 76.148 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1989 3 2 1 79.116 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1990 3 2 1 59.132 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1992 3 2 1 24.902 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1993 3 2 1 115.913 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1994 3 2 1 108.824 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1995 3 2 1 105.967 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1996 3 2 1 74.752 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1997 3 2 1 32.606 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1998 3 2 1 10.661 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 1999 3 2 1 8.734 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2000 3 2 1 111.728 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2001 3 2 1 98.321 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2002 3 2 1 86.666 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2003 3 2 1 93.638 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2004 3 2 1 120.289 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2005 3 2 1 138.926 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2006 3 2 1 150.358 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2007 3 2 1 110.344 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2008 3 2 1 143.337 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2009 3 2 1 143.485 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2010 3 2 1 149.822 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2011 3 2 1 141.626 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2012 3 2 1 161.113 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2013 3 2 1 130.603 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2014 3 2 1 129.656 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2015 3 2 1 144.225 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2016 3 2 1 138.997 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2017 3 2 1 135.322 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2018 3 2 1 89.613 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+ 2019 3 2 1 23.964 0.03 1 2 1 0 0.2 # Summer_Com_male_retained
+# nSurveys
+3
+# Number of lines for each index (this is not correct for retrospective analyses)
+61
+## Index: One q is estimated for each index (the number of index values should match nSurveys
+## Sex: 1 = male, 2 = female, 0 = both
+## Maturity: 1 = mature, 2 = immature, 0 = both
+## Units of survey: 1 = biomass, 2 = numbers
+# Index Year Season Fleet Sex Maurity Obs CV Units
+ 1 1976 4 3 1 0 4247.46 0.311 2 # ADFG_Trawl_male_immature+mature
+ 1 1979 4 3 1 0 1417.21 0.204 2 # ADFG_Trawl_male_immature+mature
+ 1 1982 4 3 1 0 2791.73 0.289 2 # ADFG_Trawl_male_immature+mature
+ 1 1985 4 3 1 0 2306.32 0.254 2 # ADFG_Trawl_male_immature+mature
+ 1 1988 4 3 1 0 2263.35 0.288 2 # ADFG_Trawl_male_immature+mature
+ 1 1991 4 3 1 0 3132.51 0.428 2 # ADFG_Trawl_male_immature+mature
+ 2 1996 4 3 1 0 1283.02 0.254 2 # ADFG_Trawl_male_immature+mature
+ 2 1999 4 3 1 0 2608 0.238 2 # ADFG_Trawl_male_immature+mature
+ 2 2002 4 3 1 0 2055.97 0.365 2 # ADFG_Trawl_male_immature+mature
+ 2 2006 4 3 1 0 3336.03 0.389 2 # ADFG_Trawl_male_immature+mature
+ 2 2008 4 3 1 0 2894.17 0.307 2 # ADFG_Trawl_male_immature+mature
+ 2 2010 4 3 1 0 1980.08 0.441 2 # ADFG_Trawl_male_immature+mature
+ 2 2011 4 3 1 0 3209.28 0.289 2 # ADFG_Trawl_male_immature+mature
+ 2 2014 4 3 1 0 5934.6 0.472 2 # ADFG_Trawl_male_immature+mature
+ 2 2017 4 3 1 0 1762.07 0.222 2 # ADFG_Trawl_male_immature+mature
+ 2 2018 4 3 1 0 1108.89 0.247 2 # ADFG_Trawl_male_immature+mature
+ 2 2019 4 3 1 0 4660.8 0.59 2 # ADFG_Trawl_male_immature+mature
+ 2 2017 5 3 1 0 1035.77 0.404 2 # ADFG_Trawl_male_immature+mature
+ 2 2019 5 3 1 0 2432.4 0.26 2 # ADFG_Trawl_male_immature+mature
+ 3 1977 3 2 1 0 3.29 0.68 2 # Summer_Com_male_immature+mature
+ 3 1978 3 2 1 0 4.68 0.65 2 # Summer_Com_male_immature+mature
+ 3 1979 3 2 1 0 2.87 0.64 2 # Summer_Com_male_immature+mature
+ 3 1980 3 2 1 0 3.07 0.65 2 # Summer_Com_male_immature+mature
+ 3 1981 3 2 1 0 0.86 0.64 2 # Summer_Com_male_immature+mature
+ 3 1982 3 2 1 0 0.2 0.62 2 # Summer_Com_male_immature+mature
+ 3 1983 3 2 1 0 0.9 0.65 2 # Summer_Com_male_immature+mature
+ 3 1984 3 2 1 0 1.59 0.65 2 # Summer_Com_male_immature+mature
+ 3 1985 3 2 1 0 0.5 0.66 2 # Summer_Com_male_immature+mature
+ 3 1986 3 2 1 0 1.74 0.7 2 # Summer_Com_male_immature+mature
+ 3 1987 3 2 1 0 0.61 0.64 2 # Summer_Com_male_immature+mature
+ 3 1988 3 2 1 0 2.36 0.86 2 # Summer_Com_male_immature+mature
+ 3 1989 3 2 1 0 1.21 0.61 2 # Summer_Com_male_immature+mature
+ 3 1990 3 2 1 0 1.08 0.68 2 # Summer_Com_male_immature+mature
+ 3 1992 3 2 1 0 0.17 0.6 2 # Summer_Com_male_immature+mature
+ 3 1993 3 2 1 0 0.9 0.35 2 # Summer_Com_male_immature+mature
+ 3 1994 3 2 1 0 0.81 0.34 2 # Summer_Com_male_immature+mature
+ 3 1995 3 2 1 0 0.42 0.34 2 # Summer_Com_male_immature+mature
+ 3 1996 3 2 1 0 0.51 0.34 2 # Summer_Com_male_immature+mature
+ 3 1997 3 2 1 0 0.84 0.35 2 # Summer_Com_male_immature+mature
+ 3 1998 3 2 1 0 0.79 0.36 2 # Summer_Com_male_immature+mature
+ 3 1999 3 2 1 0 0.92 0.36 2 # Summer_Com_male_immature+mature
+ 3 2000 3 2 1 0 1.24 0.34 2 # Summer_Com_male_immature+mature
+ 3 2001 3 2 1 0 0.64 0.34 2 # Summer_Com_male_immature+mature
+ 3 2002 3 2 1 0 1.23 0.34 2 # Summer_Com_male_immature+mature
+ 3 2003 3 2 1 0 0.85 0.34 2 # Summer_Com_male_immature+mature
+ 3 2004 3 2 1 0 1.27 0.34 2 # Summer_Com_male_immature+mature
+ 3 2005 3 2 1 0 1.19 0.34 2 # Summer_Com_male_immature+mature
+ 3 2006 3 2 1 0 1.31 0.34 2 # Summer_Com_male_immature+mature
+ 3 2007 3 2 1 0 1.02 0.34 2 # Summer_Com_male_immature+mature
+ 3 2008 3 2 1 0 1.32 0.34 2 # Summer_Com_male_immature+mature
+ 3 2009 3 2 1 0 0.84 0.34 2 # Summer_Com_male_immature+mature
+ 3 2010 3 2 1 0 1.22 0.34 2 # Summer_Com_male_immature+mature
+ 3 2011 3 2 1 0 1.58 0.34 2 # Summer_Com_male_immature+mature
+ 3 2012 3 2 1 0 1.29 0.34 2 # Summer_Com_male_immature+mature
+ 3 2013 3 2 1 0 0.67 0.33 2 # Summer_Com_male_immature+mature
+ 3 2014 3 2 1 0 1.12 0.34 2 # Summer_Com_male_immature+mature
+ 3 2015 3 2 1 0 1.45 0.34 2 # Summer_Com_male_immature+mature
+ 3 2016 3 2 1 0 1.27 0.34 2 # Summer_Com_male_immature+mature
+ 3 2017 3 2 1 0 1.1 0.34 2 # Summer_Com_male_immature+mature
+ 3 2018 3 2 1 0 0.64 0.34 2 # Summer_Com_male_immature+mature
+ 3 2019 3 2 1 0 0.26 0.34 2 # Summer_Com_male_immature+mature
+# nSizeComps_in
+14
+# nSizeCompRows_in
+ 4 4 27 27 42 42 6 6 8 8 17 17 2 2
+# nSizeCompCols_in
+ 8 8 8 8 8 8 8 8 8 8 8 8 8 8
+## Sex: 1 = male, 2 = female, 0 = both
+## Type of catch: 1 = retained, 2 = discard, 0 = total
+## Shell: 1 = newshell, 2 = oldshell, 0 = both
+## Maturity: 1 = immature, 2 = mature, 0 = both
+## Stage1_EffN: the stage-1 effective sample size (this can be modified in the CTL file)
+# Year Season Fleet Sex Type Shell Maturity Stage1_EffN Data
+ 2015 1 1 1 1 1 0 10 0 0 0 0.075 0.498 0.24 0.061 0.005 # Winter_Com_male_retained_newshell_immature+mature
+ 2016 1 1 1 1 1 0 10 0 0 0 0.029 0.455 0.313 0.034 0.005 # Winter_Com_male_retained_newshell_immature+mature
+ 2017 1 1 1 1 1 0 10 0 0 0 0.002 0.204 0.3 0.131 0.017 # Winter_Com_male_retained_newshell_immature+mature
+ 2018 1 1 1 1 1 0 10 0 0 0 0 0.107 0.254 0.267 0.052 # Winter_Com_male_retained_newshell_immature+mature
+ 2015 1 1 1 1 2 0 10 0 0 0 0.01 0.04 0.03 0.03 0.012 # Winter_Com_male_retained_oldshell_immature+mature
+ 2016 1 1 1 1 2 0 10 0 0 0 0.008 0.092 0.041 0.016 0.008 # Winter_Com_male_retained_oldshell_immature+mature
+ 2017 1 1 1 1 2 0 10 0 0 0 0.002 0.078 0.187 0.059 0.02 # Winter_Com_male_retained_oldshell_immature+mature
+ 2018 1 1 1 1 2 0 10 0 0 0 0 0.037 0.16 0.097 0.025 # Winter_Com_male_retained_oldshell_immature+mature
+ 1982 1 1 1 0 1 0 10 0 0.1 0.228 0.214 0.07 0.019 0.017 0 # Winter_Com_male_total_newshell_immature+mature
+ 1983 1 1 1 0 1 0 10 0.026 0.083 0.276 0.278 0.21 0.069 0.007 0.001 # Winter_Com_male_total_newshell_immature+mature
+ 1984 1 1 1 0 1 0 10 0.014 0.162 0.258 0.226 0.148 0.059 0.005 0 # Winter_Com_male_total_newshell_immature+mature
+ 1985 1 1 1 0 1 0 10 0.02 0.091 0.252 0.354 0.155 0.056 0.009 0.001 # Winter_Com_male_total_newshell_immature+mature
+ 1986 1 1 1 0 1 0 10 0.043 0.122 0.172 0.244 0.194 0.083 0.012 0.001 # Winter_Com_male_total_newshell_immature+mature
+ 1987 1 1 1 0 1 0 10 0 0.056 0.153 0.194 0.069 0.042 0 0 # Winter_Com_male_total_newshell_immature+mature
+ 1989 1 1 1 0 1 0 10 0.016 0.132 0.149 0.133 0.191 0.173 0.034 0 # Winter_Com_male_total_newshell_immature+mature
+ 1990 1 1 1 0 1 0 10 0.003 0.049 0.207 0.261 0.179 0.122 0.057 0.014 # Winter_Com_male_total_newshell_immature+mature
+ 1991 1 1 1 0 1 0 10 0.002 0.012 0.092 0.285 0.267 0.096 0.01 0.001 # Winter_Com_male_total_newshell_immature+mature
+ 1993 1 1 1 0 1 0 10 0 0.006 0.033 0.055 0.127 0.116 0.028 0 # Winter_Com_male_total_newshell_immature+mature
+ 1995 1 1 1 0 1 0 10 0.009 0.057 0.079 0.098 0.255 0.232 0.071 0.013 # Winter_Com_male_total_newshell_immature+mature
+ 1996 1 1 1 0 1 0 10 0.065 0.136 0.203 0.194 0.115 0.067 0.025 0.004 # Winter_Com_male_total_newshell_immature+mature
+ 1997 1 1 1 0 1 0 10 0.07 0.214 0.219 0.111 0.146 0.113 0.053 0.01 # Winter_Com_male_total_newshell_immature+mature
+ 1998 1 1 1 0 1 0 10 0.001 0.138 0.413 0.266 0.054 0.024 0.003 0 # Winter_Com_male_total_newshell_immature+mature
+ 1999 1 1 1 0 1 0 10 0.005 0.019 0.116 0.355 0.359 0.083 0.013 0.002 # Winter_Com_male_total_newshell_immature+mature
+ 2000 1 1 1 0 1 0 10 0.017 0.087 0.104 0.162 0.329 0.176 0.035 0.002 # Winter_Com_male_total_newshell_immature+mature
+ 2002 1 1 1 0 1 0 10 0.054 0.295 0.26 0.165 0.064 0.063 0.039 0.008 # Winter_Com_male_total_newshell_immature+mature
+ 2003 1 1 1 0 1 0 10 0.024 0.097 0.218 0.283 0.176 0.059 0.024 0.005 # Winter_Com_male_total_newshell_immature+mature
+ 2004 1 1 1 0 1 0 10 0 0.017 0.162 0.26 0.318 0.142 0.014 0 # Winter_Com_male_total_newshell_immature+mature
+ 2005 1 1 1 0 1 0 10 0.005 0.074 0.141 0.178 0.217 0.185 0.074 0.002 # Winter_Com_male_total_newshell_immature+mature
+ 2006 1 1 1 0 1 0 10 0.004 0.141 0.227 0.209 0.156 0.055 0.02 0.002 # Winter_Com_male_total_newshell_immature+mature
+ 2007 1 1 1 0 1 0 10 0.069 0.138 0.195 0.352 0.132 0.044 0 0 # Winter_Com_male_total_newshell_immature+mature
+ 2008 1 1 1 0 1 0 10 0.014 0.145 0.249 0.168 0.144 0.066 0.007 0.001 # Winter_Com_male_total_newshell_immature+mature
+ 2009 1 1 1 0 1 0 10 0.002 0.07 0.131 0.35 0.202 0.084 0.01 0.004 # Winter_Com_male_total_newshell_immature+mature
+ 2010 1 1 1 0 1 0 10 0.007 0.047 0.128 0.215 0.244 0.112 0.017 0.002 # Winter_Com_male_total_newshell_immature+mature
+ 2011 1 1 1 0 1 0 10 0.018 0.077 0.134 0.205 0.171 0.131 0.049 0.002 # Winter_Com_male_total_newshell_immature+mature
+ 2012 1 1 1 0 1 0 10 0.025 0.113 0.228 0.19 0.121 0.126 0.04 0.004 # Winter_Com_male_total_newshell_immature+mature
+ 1982 1 1 1 0 2 0 10 0 0.05 0.114 0.11 0.04 0.015 0.019 0.003 # Winter_Com_male_total_oldshell_immature+mature
+ 1983 1 1 1 0 2 0 10 0 0 0 0.004 0.019 0.009 0.008 0.008 # Winter_Com_male_total_oldshell_immature+mature
+ 1984 1 1 1 0 2 0 10 0 0 0.001 0.018 0.064 0.032 0.007 0.006 # Winter_Com_male_total_oldshell_immature+mature
+ 1985 1 1 1 0 2 0 10 0 0 0.001 0.006 0.029 0.023 0.001 0 # Winter_Com_male_total_oldshell_immature+mature
+ 1986 1 1 1 0 2 0 10 0 0 0.003 0.014 0.058 0.042 0.012 0 # Winter_Com_male_total_oldshell_immature+mature
+ 1987 1 1 1 0 2 0 10 0 0 0.007 0.042 0.299 0.111 0.028 0 # Winter_Com_male_total_oldshell_immature+mature
+ 1989 1 1 1 0 2 0 10 0 0 0 0.002 0.052 0.084 0.032 0.002 # Winter_Com_male_total_oldshell_immature+mature
+ 1990 1 1 1 0 2 0 10 0 0 0 0.001 0.026 0.056 0.021 0.003 # Winter_Com_male_total_oldshell_immature+mature
+ 1991 1 1 1 0 2 0 10 0 0 0 0.004 0.027 0.116 0.072 0.016 # Winter_Com_male_total_oldshell_immature+mature
+ 1993 1 1 1 0 2 0 10 0 0 0 0.017 0.193 0.271 0.105 0.05 # Winter_Com_male_total_oldshell_immature+mature
+ 1995 1 1 1 0 2 0 10 0 0.001 0 0.003 0.033 0.071 0.062 0.015 # Winter_Com_male_total_oldshell_immature+mature
+ 1996 1 1 1 0 2 0 10 0 0 0.003 0.013 0.055 0.072 0.035 0.013 # Winter_Com_male_total_oldshell_immature+mature
+ 1997 1 1 1 0 2 0 10 0 0 0 0 0.018 0.025 0.013 0.01 # Winter_Com_male_total_oldshell_immature+mature
+ 1998 1 1 1 0 2 0 10 0 0.001 0.007 0.016 0.032 0.017 0.018 0.009 # Winter_Com_male_total_oldshell_immature+mature
+ 1999 1 1 1 0 2 0 10 0 0 0 0.01 0.022 0.007 0.006 0.002 # Winter_Com_male_total_oldshell_immature+mature
+ 2000 1 1 1 0 2 0 10 0 0 0 0.002 0.05 0.023 0.012 0.002 # Winter_Com_male_total_oldshell_immature+mature
+ 2002 1 1 1 0 2 0 10 0.006 0.005 0.008 0.007 0.005 0.014 0.005 0.001 # Winter_Com_male_total_oldshell_immature+mature
+ 2003 1 1 1 0 2 0 10 0.001 0.006 0.006 0.022 0.024 0.027 0.021 0.006 # Winter_Com_male_total_oldshell_immature+mature
+ 2004 1 1 1 0 2 0 10 0 0 0.01 0.017 0.02 0.014 0.02 0.007 # Winter_Com_male_total_oldshell_immature+mature
+ 2005 1 1 1 0 2 0 10 0 0.002 0.002 0.002 0.04 0.059 0.012 0.005 # Winter_Com_male_total_oldshell_immature+mature
+ 2006 1 1 1 0 2 0 10 0 0.008 0.01 0.018 0.043 0.074 0.029 0.006 # Winter_Com_male_total_oldshell_immature+mature
+ 2007 1 1 1 0 2 0 10 0 0 0.006 0.006 0.019 0.038 0 0 # Winter_Com_male_total_oldshell_immature+mature
+ 2008 1 1 1 0 2 0 10 0.006 0.042 0.067 0.034 0.033 0.015 0.008 0.001 # Winter_Com_male_total_oldshell_immature+mature
+ 2009 1 1 1 0 2 0 10 0 0 0.002 0.002 0.038 0.099 0.004 0.002 # Winter_Com_male_total_oldshell_immature+mature
+ 2010 1 1 1 0 2 0 10 0 0 0.007 0.057 0.1 0.054 0.009 0.002 # Winter_Com_male_total_oldshell_immature+mature
+ 2011 1 1 1 0 2 0 10 0.002 0 0.012 0.032 0.111 0.045 0.012 0 # Winter_Com_male_total_oldshell_immature+mature
+ 2012 1 1 1 0 2 0 10 0 0.003 0.003 0.009 0.052 0.052 0.031 0.003 # Winter_Com_male_total_oldshell_immature+mature
+ 1977 3 2 1 1 1 0 10 0 0 0 0.003 0.42 0.342 0.077 0.045 # Summer_Com_male_retained_newshell_immature+mature
+ 1978 3 2 1 1 1 0 10 0 0 0 0.01 0.185 0.473 0.265 0.041 # Summer_Com_male_retained_newshell_immature+mature
+ 1979 3 2 1 1 1 0 10 0 0 0 0.025 0.233 0.383 0.256 0.066 # Summer_Com_male_retained_newshell_immature+mature
+ 1980 3 2 1 1 1 0 10 0 0 0 0.004 0.098 0.306 0.371 0.184 # Summer_Com_male_retained_newshell_immature+mature
+ 1981 3 2 1 1 1 0 10 0 0 0 0.004 0.073 0.154 0.281 0.228 # Summer_Com_male_retained_newshell_immature+mature
+ 1982 3 2 1 1 1 0 10 0 0 0 0.042 0.192 0.165 0.219 0.286 # Summer_Com_male_retained_newshell_immature+mature
+ 1983 3 2 1 1 1 0 10 0 0 0 0.039 0.413 0.358 0.064 0.034 # Summer_Com_male_retained_newshell_immature+mature
+ 1984 3 2 1 1 1 0 10 0 0 0 0.097 0.42 0.28 0.064 0.007 # Summer_Com_male_retained_newshell_immature+mature
+ 1985 3 2 1 1 1 0 10 0 0 0 0.064 0.312 0.372 0.155 0.02 # Summer_Com_male_retained_newshell_immature+mature
+ 1986 3 2 1 1 1 0 10 0 0 0 0.029 0.356 0.394 0.118 0.018 # Summer_Com_male_retained_newshell_immature+mature
+ 1987 3 2 1 1 1 0 10 0 0 0 0.017 0.179 0.291 0.272 0.108 # Summer_Com_male_retained_newshell_immature+mature
+ 1988 3 2 1 1 1 0 10 0 0.001 0 0.024 0.2 0.3 0.18 0.038 # Summer_Com_male_retained_newshell_immature+mature
+ 1989 3 2 1 1 1 0 10 0 0 0 0.013 0.164 0.318 0.17 0.045 # Summer_Com_male_retained_newshell_immature+mature
+ 1990 3 2 1 1 1 0 10 0 0 0 0.015 0.144 0.347 0.257 0.068 # Summer_Com_male_retained_newshell_immature+mature
+ 1992 3 2 1 1 1 0 10 0 0 0 0.017 0.201 0.266 0.136 0.089 # Summer_Com_male_retained_newshell_immature+mature
+ 1993 3 2 1 1 1 0 10 0 0 0 0.014 0.231 0.394 0.23 0.033 # Summer_Com_male_retained_newshell_immature+mature
+ 1994 3 2 1 1 1 0 10 0 0 0 0.025 0.094 0.082 0.069 0.02 # Summer_Com_male_retained_newshell_immature+mature
+ 1995 3 2 1 1 1 0 10 0 0 0 0.039 0.263 0.287 0.151 0.051 # Summer_Com_male_retained_newshell_immature+mature
+ 1996 3 2 1 1 1 0 10 0 0 0 0.032 0.224 0.239 0.094 0.047 # Summer_Com_male_retained_newshell_immature+mature
+ 1997 3 2 1 1 1 0 10 0 0 0 0.029 0.366 0.341 0.099 0.025 # Summer_Com_male_retained_newshell_immature+mature
+ 1998 3 2 1 1 1 0 10 0 0 0 0.028 0.233 0.243 0.081 0.027 # Summer_Com_male_retained_newshell_immature+mature
+ 1999 3 2 1 1 1 0 10 0 0 0 0.064 0.294 0.244 0.183 0.094 # Summer_Com_male_retained_newshell_immature+mature
+ 2000 3 2 1 1 1 0 10 0 0 0 0.019 0.299 0.392 0.109 0.015 # Summer_Com_male_retained_newshell_immature+mature
+ 2001 3 2 1 1 1 0 10 0 0 0 0.024 0.223 0.369 0.205 0.073 # Summer_Com_male_retained_newshell_immature+mature
+ 2002 3 2 1 1 1 0 10 0 0 0 0.044 0.234 0.281 0.252 0.073 # Summer_Com_male_retained_newshell_immature+mature
+ 2003 3 2 1 1 1 0 10 0 0 0 0.023 0.368 0.32 0.121 0.031 # Summer_Com_male_retained_newshell_immature+mature
+ 2004 3 2 1 1 1 0 10 0 0 0 0.009 0.381 0.388 0.106 0.034 # Summer_Com_male_retained_newshell_immature+mature
+ 2005 3 2 1 1 1 0 10 0 0 0 0.002 0.254 0.471 0.16 0.022 # Summer_Com_male_retained_newshell_immature+mature
+ 2006 3 2 1 1 1 0 10 0 0 0 0.002 0.182 0.348 0.174 0.025 # Summer_Com_male_retained_newshell_immature+mature
+ 2007 3 2 1 1 1 0 10 0 0 0 0.011 0.357 0.341 0.137 0.034 # Summer_Com_male_retained_newshell_immature+mature
+ 2008 3 2 1 1 1 0 10 0 0 0 0.005 0.351 0.348 0.056 0.011 # Summer_Com_male_retained_newshell_immature+mature
+ 2009 3 2 1 1 1 0 10 0 0 0 0.01 0.345 0.329 0.112 0.022 # Summer_Com_male_retained_newshell_immature+mature
+ 2010 3 2 1 1 1 0 10 0 0 0 0.005 0.385 0.362 0.099 0.01 # Summer_Com_male_retained_newshell_immature+mature
+ 2011 3 2 1 1 1 0 10 0 0 0 0.004 0.317 0.397 0.115 0.024 # Summer_Com_male_retained_newshell_immature+mature
+ 2012 3 2 1 1 1 0 10 0 0 0 0.003 0.242 0.462 0.184 0.022 # Summer_Com_male_retained_newshell_immature+mature
+ 2013 3 2 1 1 1 0 10 0 0 0 0.004 0.239 0.371 0.241 0.061 # Summer_Com_male_retained_newshell_immature+mature
+ 2014 3 2 1 1 1 0 10 0 0 0 0.009 0.283 0.236 0.185 0.072 # Summer_Com_male_retained_newshell_immature+mature
+ 2015 3 2 1 1 1 0 10 0 0 0 0.014 0.476 0.282 0.1 0.029 # Summer_Com_male_retained_newshell_immature+mature
+ 2016 3 2 1 1 1 0 10 0 0 0 0.003 0.254 0.474 0.16 0.031 # Summer_Com_male_retained_newshell_immature+mature
+ 2017 3 2 1 1 1 0 10 0 0 0 0.001 0.175 0.391 0.212 0.025 # Summer_Com_male_retained_newshell_immature+mature
+ 2018 3 2 1 1 1 0 10 0 0 0 0.003 0.113 0.317 0.318 0.074 # Summer_Com_male_retained_newshell_immature+mature
+ 2019 3 2 1 1 1 0 10 0 0 0 0.009 0.32 0.229 0.133 0.026 # Summer_Com_male_retained_newshell_immature+mature
+ 1977 3 2 1 1 2 0 10 0 0 0 0 0.063 0.04 0.006 0.004 # Summer_Com_male_retained_oldshell_immature+mature
+ 1978 3 2 1 1 2 0 10 0 0 0 0 0.005 0.01 0.008 0.003 # Summer_Com_male_retained_oldshell_immature+mature
+ 1979 3 2 1 1 2 0 10 0 0 0 0 0.025 0.001 0.003 0.008 # Summer_Com_male_retained_oldshell_immature+mature
+ 1980 3 2 1 1 2 0 10 0 0 0 0 0.003 0.011 0.016 0.007 # Summer_Com_male_retained_oldshell_immature+mature
+ 1981 3 2 1 1 2 0 10 0 0 0 0 0.004 0.05 0.116 0.089 # Summer_Com_male_retained_oldshell_immature+mature
+ 1982 3 2 1 1 2 0 10 0 0 0 0.004 0.013 0.022 0.03 0.027 # Summer_Com_male_retained_oldshell_immature+mature
+ 1983 3 2 1 1 2 0 10 0 0 0 0.004 0.036 0.01 0.021 0.022 # Summer_Com_male_retained_oldshell_immature+mature
+ 1984 3 2 1 1 2 0 10 0 0 0 0.01 0.065 0.049 0.006 0.001 # Summer_Com_male_retained_oldshell_immature+mature
+ 1985 3 2 1 1 2 0 10 0 0 0 0.003 0.033 0.031 0.009 0.001 # Summer_Com_male_retained_oldshell_immature+mature
+ 1986 3 2 1 1 2 0 10 0 0 0 0.002 0.02 0.038 0.024 0.003 # Summer_Com_male_retained_oldshell_immature+mature
+ 1987 3 2 1 1 2 0 10 0 0 0 0.003 0.027 0.065 0.03 0.009 # Summer_Com_male_retained_oldshell_immature+mature
+ 1988 3 2 1 1 2 0 10 0 0 0 0.006 0.064 0.097 0.07 0.019 # Summer_Com_male_retained_oldshell_immature+mature
+ 1989 3 2 1 1 2 0 10 0 0 0 0.004 0.055 0.121 0.085 0.023 # Summer_Com_male_retained_oldshell_immature+mature
+ 1990 3 2 1 1 2 0 10 0 0 0 0.001 0.037 0.074 0.047 0.011 # Summer_Com_male_retained_oldshell_immature+mature
+ 1992 3 2 1 1 2 0 10 0 0 0 0.003 0.079 0.129 0.06 0.02 # Summer_Com_male_retained_oldshell_immature+mature
+ 1993 3 2 1 1 2 0 10 0 0 0 0 0.017 0.044 0.029 0.007 # Summer_Com_male_retained_oldshell_immature+mature
+ 1994 3 2 1 1 2 0 10 0 0 0 0.025 0.188 0.25 0.2 0.047 # Summer_Com_male_retained_oldshell_immature+mature
+ 1995 3 2 1 1 2 0 10 0 0 0 0.008 0.049 0.075 0.064 0.013 # Summer_Com_male_retained_oldshell_immature+mature
+ 1996 3 2 1 1 2 0 10 0 0 0 0.014 0.119 0.136 0.079 0.017 # Summer_Com_male_retained_oldshell_immature+mature
+ 1997 3 2 1 1 2 0 10 0 0 0 0.003 0.056 0.042 0.027 0.012 # Summer_Com_male_retained_oldshell_immature+mature
+ 1998 3 2 1 1 2 0 10 0 0 0 0.022 0.112 0.143 0.082 0.03 # Summer_Com_male_retained_oldshell_immature+mature
+ 1999 3 2 1 1 2 0 10 0 0 0 0.002 0.023 0.048 0.044 0.004 # Summer_Com_male_retained_oldshell_immature+mature
+ 2000 3 2 1 1 2 0 10 0 0 0 0.003 0.053 0.065 0.035 0.008 # Summer_Com_male_retained_oldshell_immature+mature
+ 2001 3 2 1 1 2 0 10 0 0 0 0.001 0.024 0.05 0.024 0.007 # Summer_Com_male_retained_oldshell_immature+mature
+ 2002 3 2 1 1 2 0 10 0 0 0 0.005 0.028 0.042 0.032 0.008 # Summer_Com_male_retained_oldshell_immature+mature
+ 2003 3 2 1 1 2 0 10 0 0 0 0.001 0.022 0.046 0.053 0.015 # Summer_Com_male_retained_oldshell_immature+mature
+ 2004 3 2 1 1 2 0 10 0 0 0 0 0.026 0.035 0.015 0.007 # Summer_Com_male_retained_oldshell_immature+mature
+ 2005 3 2 1 1 2 0 10 0 0 0 0 0.021 0.045 0.019 0.006 # Summer_Com_male_retained_oldshell_immature+mature
+ 2006 3 2 1 1 2 0 10 0 0 0 0 0.05 0.137 0.069 0.011 # Summer_Com_male_retained_oldshell_immature+mature
+ 2007 3 2 1 1 2 0 10 0 0 0 0.001 0.025 0.057 0.03 0.006 # Summer_Com_male_retained_oldshell_immature+mature
+ 2008 3 2 1 1 2 0 10 0 0 0 0.001 0.089 0.093 0.035 0.011 # Summer_Com_male_retained_oldshell_immature+mature
+ 2009 3 2 1 1 2 0 10 0 0 0 0.001 0.077 0.079 0.019 0.005 # Summer_Com_male_retained_oldshell_immature+mature
+ 2010 3 2 1 1 2 0 10 0 0 0 0.002 0.055 0.055 0.023 0.004 # Summer_Com_male_retained_oldshell_immature+mature
+ 2011 3 2 1 1 2 0 10 0 0 0 0.002 0.061 0.059 0.016 0.005 # Summer_Com_male_retained_oldshell_immature+mature
+ 2012 3 2 1 1 2 0 10 0 0 0 0 0.026 0.042 0.016 0.003 # Summer_Com_male_retained_oldshell_immature+mature
+ 2013 3 2 1 1 2 0 10 0 0 0 0 0.014 0.042 0.023 0.005 # Summer_Com_male_retained_oldshell_immature+mature
+ 2014 3 2 1 1 2 0 10 0 0 0 0 0.041 0.087 0.072 0.016 # Summer_Com_male_retained_oldshell_immature+mature
+ 2015 3 2 1 1 2 0 10 0 0 0 0.001 0.024 0.033 0.033 0.008 # Summer_Com_male_retained_oldshell_immature+mature
+ 2016 3 2 1 1 2 0 10 0 0 0 0.001 0.017 0.023 0.029 0.006 # Summer_Com_male_retained_oldshell_immature+mature
+ 2017 3 2 1 1 2 0 10 0 0 0 0.001 0.029 0.112 0.048 0.006 # Summer_Com_male_retained_oldshell_immature+mature
+ 2018 3 2 1 1 2 0 10 0 0 0 0 0.009 0.074 0.074 0.019 # Summer_Com_male_retained_oldshell_immature+mature
+ 2019 3 2 1 1 2 0 10 0 0 0 0 0.016 0.105 0.136 0.027 # Summer_Com_male_retained_oldshell_immature+mature
+ 1987 3 2 1 2 1 0 10 0.06 0.189 0.321 0.331 0.032 0 0 0 # Summer_Com_male_discard_newshell_immature+mature
+ 1988 3 2 1 2 1 0 10 0.012 0.04 0.15 0.476 0.137 0 0 0 # Summer_Com_male_discard_newshell_immature+mature
+ 1989 3 2 1 2 1 0 10 0.071 0.193 0.242 0.216 0.025 0 0 0 # Summer_Com_male_discard_newshell_immature+mature
+ 1990 3 2 1 2 1 0 10 0.079 0.227 0.27 0.274 0.037 0 0 0 # Summer_Com_male_discard_newshell_immature+mature
+ 1992 3 2 1 2 1 0 10 0.112 0.17 0.297 0.294 0.033 0 0 0 # Summer_Com_male_discard_newshell_immature+mature
+ 1994 3 2 1 2 1 0 10 0.074 0.059 0.108 0.148 0.022 0 0 0 # Summer_Com_male_discard_newshell_immature+mature
+ 1987 3 2 1 2 2 0 10 0 0.002 0.02 0.041 0.004 0 0 0 # Summer_Com_male_discard_oldshell_immature+mature
+ 1988 3 2 1 2 2 0 10 0.003 0.011 0.032 0.096 0.043 0 0 0 # Summer_Com_male_discard_oldshell_immature+mature
+ 1989 3 2 1 2 2 0 10 0.018 0.034 0.067 0.109 0.025 0 0 0 # Summer_Com_male_discard_oldshell_immature+mature
+ 1990 3 2 1 2 2 0 10 0.016 0.018 0.02 0.053 0.006 0 0 0 # Summer_Com_male_discard_oldshell_immature+mature
+ 1992 3 2 1 2 2 0 10 0.005 0.022 0.019 0.04 0.009 0 0 0 # Summer_Com_male_discard_oldshell_immature+mature
+ 1994 3 2 1 2 2 0 10 0.072 0.074 0.151 0.241 0.051 0 0 0 # Summer_Com_male_discard_oldshell_immature+mature
+ 2012 3 2 1 0 1 0 10 0.001 0.053 0.088 0.161 0.171 0.185 0.063 0.008 # Summer_Com_male_total_newshell_immature+mature
+ 2013 3 2 1 0 1 0 10 0.187 0.159 0.086 0.104 0.156 0.16 0.085 0.014 # Summer_Com_male_total_newshell_immature+mature
+ 2014 3 2 1 0 1 0 10 0.023 0.05 0.131 0.215 0.223 0.12 0.084 0.033 # Summer_Com_male_total_newshell_immature+mature
+ 2015 3 2 1 0 1 0 10 0.007 0.04 0.087 0.233 0.369 0.141 0.046 0.014 # Summer_Com_male_total_newshell_immature+mature
+ 2016 3 2 1 0 1 0 10 0.009 0.01 0.034 0.117 0.287 0.357 0.082 0.017 # Summer_Com_male_total_newshell_immature+mature
+ 2017 3 2 1 0 1 0 10 0.019 0.032 0.027 0.061 0.19 0.33 0.182 0.023 # Summer_Com_male_total_newshell_immature+mature
+ 2018 3 2 1 0 1 0 10 0.032 0.056 0.117 0.112 0.088 0.17 0.181 0.042 # Summer_Com_male_total_newshell_immature+mature
+ 2019 3 2 1 0 1 0 10 0.127 0.055 0.059 0.127 0.085 0.047 0.008 0.004 # Summer_Com_male_total_newshell_immature+mature
+ 2012 3 2 1 0 2 0 10 0.001 0.001 0.005 0.03 0.093 0.104 0.033 0.002 # Summer_Com_male_total_oldshell_immature+mature
+ 2013 3 2 1 0 2 0 10 0 0 0 0.002 0.012 0.022 0.009 0.003 # Summer_Com_male_total_oldshell_immature+mature
+ 2014 3 2 1 0 2 0 10 0 0.001 0.004 0.015 0.028 0.034 0.025 0.014 # Summer_Com_male_total_oldshell_immature+mature
+ 2015 3 2 1 0 2 0 10 0 0 0.001 0.01 0.022 0.016 0.011 0.004 # Summer_Com_male_total_oldshell_immature+mature
+ 2016 3 2 1 0 2 0 10 0 0 0 0.007 0.03 0.032 0.016 0.002 # Summer_Com_male_total_oldshell_immature+mature
+ 2017 3 2 1 0 2 0 10 0.001 0.001 0.001 0.001 0.024 0.069 0.031 0.008 # Summer_Com_male_total_oldshell_immature+mature
+ 2018 3 2 1 0 2 0 10 0 0.004 0.007 0.006 0.015 0.067 0.078 0.025 # Summer_Com_male_total_oldshell_immature+mature
+ 2019 3 2 1 0 2 0 10 0 0 0.004 0.038 0.106 0.144 0.144 0.051 # Summer_Com_male_total_oldshell_immature+mature
+ 1976 4 3 1 0 1 0 20 0.011 0.019 0.097 0.185 0.356 0.191 0.027 0.003 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1979 4 3 1 0 1 0 20 0.014 0.009 0.005 0.018 0.045 0.05 0.027 0.009 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1982 4 3 1 0 1 0 20 0.243 0.068 0.144 0.205 0.161 0.031 0 0.003 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1985 4 3 1 0 1 0 20 0.139 0.096 0.135 0.087 0.139 0.043 0.024 0.005 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1988 4 3 1 0 1 0 20 0.182 0.2 0.121 0.1 0.088 0.058 0.024 0 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1991 4 3 1 0 1 0 20 0.192 0.076 0.017 0.029 0.058 0.032 0.012 0.006 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1996 4 3 1 0 1 0 20 0.286 0.208 0.13 0.089 0.048 0.004 0.004 0.007 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1999 4 3 1 0 1 0 20 0.032 0.011 0.102 0.29 0.261 0.127 0.032 0.007 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2002 4 3 1 0 1 0 20 0.094 0.119 0.135 0.115 0.016 0.033 0.025 0.008 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2006 4 3 1 0 1 0 20 0.185 0.263 0.214 0.113 0.062 0.038 0.024 0 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2008 4 3 1 0 1 0 20 0.124 0.153 0.211 0.113 0.098 0.029 0.018 0.007 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2010 4 3 1 0 1 0 14.6 0.014 0.041 0.055 0.164 0.055 0.027 0 0 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2011 4 3 1 0 1 0 20 0.133 0.111 0.086 0.111 0.178 0.14 0.032 0.01 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2014 4 3 1 0 1 0 20 0.078 0.147 0.235 0.178 0.093 0.016 0.013 0.008 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2017 4 3 1 0 1 0 20 0.138 0.121 0.052 0.095 0.095 0.103 0.043 0 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2018 4 3 1 0 1 0 14.6 0.37 0.096 0.11 0.027 0.014 0.027 0.041 0.014 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2019 4 3 1 0 1 0 20 0.55 0.296 0.033 0 0.003 0.003 0.003 0 # ADFG_Trawl_male_total_newshell_immature+mature
+ 1976 4 3 1 0 2 0 20 0 0.004 0.01 0.022 0.029 0.033 0.008 0.005 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 1979 4 3 1 0 2 0 20 0.014 0.005 0.009 0.036 0.136 0.4 0.191 0.032 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 1982 4 3 1 0 2 0 20 0 0 0.014 0.017 0.038 0.021 0.024 0.031 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 1985 4 3 1 0 2 0 20 0 0 0 0.029 0.077 0.13 0.077 0.019 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 1988 4 3 1 0 2 0 20 0 0 0.006 0.012 0.036 0.082 0.061 0.03 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 1991 4 3 1 0 2 0 20 0.026 0.055 0.023 0.076 0.154 0.137 0.09 0.017 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 1996 4 3 1 0 2 0 20 0.004 0.004 0.026 0.033 0.045 0.045 0.041 0.026 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 1999 4 3 1 0 2 0 20 0 0 0.004 0.028 0.049 0.039 0.018 0 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2002 4 3 1 0 2 0 20 0.008 0.029 0.07 0.102 0.09 0.086 0.053 0.016 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2006 4 3 1 0 2 0 20 0 0 0 0.016 0.038 0.038 0.008 0.003 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2008 4 3 1 0 2 0 20 0 0.007 0.044 0.062 0.084 0.011 0.036 0.004 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2010 4 3 1 0 2 0 14.6 0 0.027 0.082 0.205 0.178 0.096 0.027 0.027 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2011 4 3 1 0 2 0 20 0 0.003 0.013 0.022 0.086 0.044 0.032 0 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2014 4 3 1 0 2 0 20 0 0 0.026 0.098 0.052 0.044 0.013 0 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2017 4 3 1 0 2 0 20 0.009 0.017 0.017 0.017 0.069 0.181 0.043 0 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2018 4 3 1 0 2 0 14.6 0 0.068 0.014 0.041 0.027 0.027 0.096 0.027 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2019 4 3 1 0 2 0 20 0.003 0.003 0.013 0.02 0.013 0.023 0.029 0.007 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2017 5 3 1 0 1 0 11.6 0.086 0.103 0.138 0.052 0.052 0.052 0.052 0.034 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2019 5 3 1 0 1 0 20 0.363 0.304 0.081 0.037 0.015 0 0.007 0.007 # ADFG_Trawl_male_total_newshell_immature+mature
+ 2017 5 3 1 0 2 0 11.6 0.034 0 0.034 0.052 0.034 0.19 0.052 0.034 # ADFG_Trawl_male_total_oldshell_immature+mature
+ 2019 5 3 1 0 2 0 20 0.037 0.015 0.044 0.022 0.015 0.007 0.037 0.007 # ADFG_Trawl_male_total_oldshell_immature+mature
+## size-at-release, size-at-recaptures, and time-at-liberty
+# GrowthObsType
+2
+# nGrowthObs
+66
+# Size-at-release Sex Size-at-recapture Time-at-liberty fleet-at-recapture year-at-recapture sample_size
+ 69 1 79 1 1 1 2000 1
+ 69 1 89 1 1 1 2000 4
+ 79 1 89 1 1 1 2000 21
+ 79 1 99 1 1 1 2000 22
+ 79 1 109 1 1 1 2000 4
+ 89 1 99 1 1 1 2000 47
+ 89 1 109 1 1 1 2000 91
+ 89 1 119 1 1 1 2000 7
+ 89 1 129 1 1 1 2000 1
+ 99 1 99 1 1 1 2000 10
+ 99 1 109 1 1 1 2000 196
+ 99 1 119 1 1 1 2000 108
+ 99 1 129 1 1 1 2000 2
+ 99 1 139 1 1 1 2000 1
+ 109 1 109 1 1 1 2000 75
+ 109 1 119 1 1 1 2000 143
+ 109 1 129 1 1 1 2000 22
+ 119 1 119 1 1 1 2000 88
+ 119 1 129 1 1 1 2000 98
+ 119 1 139 1 1 1 2000 24
+ 129 1 129 1 1 1 2000 56
+ 129 1 139 1 1 1 2000 25
+ 139 1 139 1 1 1 2000 26
+ 69 1 89 2 1 1 2000 1
+ 69 1 99 2 1 1 2000 6
+ 69 1 109 2 1 1 2000 4
+ 79 1 99 2 1 1 2000 12
+ 79 1 109 2 1 1 2000 96
+ 79 1 119 2 1 1 2000 5
+ 89 1 99 2 1 1 2000 5
+ 89 1 109 2 1 1 2000 36
+ 89 1 119 2 1 1 2000 70
+ 89 1 129 2 1 1 2000 3
+ 99 1 99 2 1 1 2000 2
+ 99 1 109 2 1 1 2000 34
+ 99 1 119 2 1 1 2000 39
+ 99 1 129 2 1 1 2000 19
+ 109 1 109 2 1 1 2000 7
+ 109 1 119 2 1 1 2000 77
+ 109 1 129 2 1 1 2000 24
+ 119 1 119 2 1 1 2000 11
+ 119 1 129 2 1 1 2000 47
+ 119 1 139 2 1 1 2000 7
+ 129 1 129 2 1 1 2000 9
+ 129 1 139 2 1 1 2000 16
+ 139 1 139 2 1 1 2000 8
+ 69 1 109 3 1 1 2000 11
+ 69 1 119 3 1 1 2000 11
+ 79 1 109 3 1 1 2000 19
+ 79 1 119 3 1 1 2000 48
+ 79 1 129 3 1 1 2000 6
+ 89 1 99 3 1 1 2000 2
+ 89 1 109 3 1 1 2000 14
+ 89 1 119 3 1 1 2000 28
+ 89 1 129 3 1 1 2000 9
+ 99 1 109 3 1 1 2000 3
+ 99 1 119 3 1 1 2000 35
+ 99 1 129 3 1 1 2000 14
+ 109 1 119 3 1 1 2000 9
+ 109 1 129 3 1 1 2000 21
+ 109 1 139 3 1 1 2000 4
+ 119 1 129 3 1 1 2000 11
+ 119 1 139 3 1 1 2000 3
+ 129 1 129 3 1 1 2000 1
+ 129 1 139 3 1 1 2000 9
+ 139 1 139 3 1 1 2000 1
+# eof
+9999

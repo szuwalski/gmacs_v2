@@ -1,0 +1,763 @@
+# syr
+1982
+# nyrRetro
+2018
+# nseason
+3
+# nfleet
+8
+# nsex
+2
+# nshell
+1
+# nmature
+2
+# nclass
+22
+# season_recruitment
+3
+# season_growth
+3
+# season_ssb
+3
+# season_N
+1
+# nSizeSex
+ 22 22
+# size_breaks
+ 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 105 110 115 120 125 130 135
+# Natural mortality per season input type (1 = vector by season, 2 = matrix by season/year)
+ 2
+# Proportion of the total natural mortality to be applied each season
+ 0.62 0.01 0.37 # 1982
+ 0.62 0.01 0.37 # 1983
+ 0.62 0.01 0.37 # 1984
+ 0.62 0.01 0.37 # 1985
+ 0.62 0.01 0.37 # 1986
+ 0.62 0.01 0.37 # 1987
+ 0.62 0.01 0.37 # 1988
+ 0.62 0.01 0.37 # 1989
+ 0.62 0.01 0.37 # 1990
+ 0.62 0.01 0.37 # 1991
+ 0.62 0.01 0.37 # 1992
+ 0.62 0.01 0.37 # 1993
+ 0.62 0.01 0.37 # 1994
+ 0.62 0.01 0.37 # 1995
+ 0.62 0.01 0.37 # 1996
+ 0.62 0.01 0.37 # 1997
+ 0.62 0.01 0.37 # 1998
+ 0.62 0.01 0.37 # 1999
+ 0.62 0.01 0.37 # 2000
+ 0.62 0.01 0.37 # 2001
+ 0.62 0.01 0.37 # 2002
+ 0.62 0.01 0.37 # 2003
+ 0.62 0.01 0.37 # 2004
+ 0.62 0.01 0.37 # 2005
+ 0.62 0.01 0.37 # 2006
+ 0.62 0.01 0.37 # 2007
+ 0.62 0.01 0.37 # 2008
+ 0.62 0.01 0.37 # 2009
+ 0.62 0.01 0.37 # 2010
+ 0.62 0.01 0.37 # 2011
+ 0.62 0.01 0.37 # 2012
+ 0.62 0.01 0.37 # 2013
+ 0.62 0.01 0.37 # 2014
+ 0.62 0.01 0.37 # 2015
+ 0.62 0.01 0.37 # 2016
+ 0.62 0.01 0.37 # 2017
+ 0.62 0.01 0.37 # 2018
+# fleetname
+Pot_Fishery
+Trawl_Bycatch
+NMFS_Trawl_1982
+NMFS_Trawl_1989
+BSFRF_2009
+NMFS_2009
+BSFRF_2010
+NMFS_2010
+#Season type: Set to 1 for continuous F and 0 for instantanous F
+ 1 1 1
+# nCatchDF
+4
+# Number of lines for each group (this is not correct for retrospective analyses)
+ 37 37 37 37
+## Sex: 1 = male, 2 = female, 0 = both
+## Type of catch: 1 = retained, 2 = discard, 0 = total
+## Units of catch: 1 = biomass, 2 = numbers
+## Mult: 1= use data as they are, 2 = multiply by this number (e.g., lbs to kg)
+# Year Season Fleet Sex Obs CV Units Mult Effort Discard_mortality
+ 1982 2 1 1 11.8518 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1983 2 1 1 12.1623 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1984 2 1 1 29.9369 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1985 2 1 1 44.4455 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1986 2 1 1 46.2231 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1987 2 1 1 61.3965 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1988 2 1 1 67.7927 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1989 2 1 1 73.4017 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1990 2 1 1 149.073 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1991 2 1 1 143.02 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1992 2 1 1 104.684 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1993 2 1 1 67.9378 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1994 2 1 1 34.1344 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1995 2 1 1 29.8071 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1996 2 1 1 54.2244 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1997 2 1 1 114.392 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1998 2 1 1 88.0885 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1999 2 1 1 15.1009 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2000 2 1 1 11.4562 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2001 2 1 1 14.8021 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2002 2 1 1 12.8445 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2003 2 1 1 10.8602 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2004 2 1 1 11.291 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2005 2 1 1 16.7712 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2006 2 1 1 16.4908 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2007 2 1 1 28.592 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2008 2 1 1 26.5571 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2009 2 1 1 21.779 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2010 2 1 1 24.6136 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2011 2 1 1 40.2933 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2012 2 1 1 30.0529 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2013 2 1 1 24.4867 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2014 2 1 1 30.8181 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2015 2 1 1 18.4212 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2016 2 1 1 9.67089 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2017 2 1 1 8.60177 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 2018 2 1 1 12.5094 0.04 1 1 1 0 0.3 # Pot_Fishery_male_retained
+ 1982 2 1 1 1.2665 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1983 2 1 1 1.23826 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1984 2 1 1 2.75873 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1985 2 1 1 4.01467 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1986 2 1 1 4.24531 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1987 2 1 1 5.52241 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1988 2 1 1 5.81669 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1989 2 1 1 6.68474 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1990 2 1 1 15.2104 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1991 2 1 1 12.0007 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1992 2 1 1 17.0594 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1993 2 1 1 5.32105 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1994 2 1 1 4.03107 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1995 2 1 1 5.75369 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1996 2 1 1 7.43796 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1997 2 1 1 5.73442 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1998 2 1 1 4.66529 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1999 2 1 1 0.51769 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2000 2 1 1 0.61915 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2001 2 1 1 1.88619 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2002 2 1 1 1.47237 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2003 2 1 1 0.57274 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2004 2 1 1 0.50851 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2005 2 1 1 1.35931 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2006 2 1 1 1.77529 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2007 2 1 1 2.53489 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2008 2 1 1 2.06014 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2009 2 1 1 1.22884 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2010 2 1 1 0.61629 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2011 2 1 1 1.68996 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2012 2 1 1 2.32367 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2013 2 1 1 3.27274 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2014 2 1 1 3.52222 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2015 2 1 1 2.955 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2016 2 1 1 1.3119 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2017 2 1 1 1.93176 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 2018 2 1 1 2.86297 0.07 2 1 1 0 0.3 # Pot_Fishery_male_discard
+ 1982 2 1 2 0.015556 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1983 2 1 2 0.0108887 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1984 2 1 2 0.010782 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1985 2 1 2 0.0108527 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1986 2 1 2 0.0239127 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1987 2 1 2 0.0345783 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1988 2 1 2 0.0367518 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1989 2 1 2 0.0477847 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1990 2 1 2 0.0509047 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1991 2 1 2 0.058299 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1992 2 1 2 0.119838 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1993 2 1 2 0.0800336 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1994 2 1 2 0.0577576 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1995 2 1 2 0.0156582 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1996 2 1 2 0.0691276 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1997 2 1 2 0.00539956 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1998 2 1 2 0.00652564 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1999 2 1 2 0.000398846 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2000 2 1 2 0.000419268 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2001 2 1 2 0.000419268 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2002 2 1 2 0.00424435 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2003 2 1 2 0.000623222 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2004 2 1 2 0.000623222 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2005 2 1 2 0.00234871 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2006 2 1 2 0.000740955 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2007 2 1 2 0.0106352 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2008 2 1 2 0.00819622 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2009 2 1 2 0.00726154 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2010 2 1 2 0.00604923 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2011 2 1 2 0.17645 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2012 2 1 2 0.0276122 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2013 2 1 2 0.0651188 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2014 2 1 2 0.168694 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2015 2 1 2 0.0686591 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2016 2 1 2 0.0189331 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2017 2 1 2 0.0181628 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 2018 2 1 2 0.0192255 0.07 2 1 1 0 0.3 # Pot_Fishery_female_discard
+ 1982 2 2 0 0.371749 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1983 2 2 0 0.479076 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1984 2 2 0 0.508994 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1985 2 2 0 0.43692 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1986 2 2 0 1.87665 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1987 2 2 0 0.00550147 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1988 2 2 0 0.67314 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1989 2 2 0 0.781351 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1990 2 2 0 0.597612 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1991 2 2 0 1.88148 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1992 2 2 0 1.78102 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1993 2 2 0 1.76296 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1994 2 2 0 3.54379 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1995 2 2 0 1.33748 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1996 2 2 0 0.922247 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1997 2 2 0 1.46969 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1998 2 2 0 1.01392 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 1999 2 2 0 0.608396 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2000 2 2 0 0.529335 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2001 2 2 0 0.390457 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2002 2 2 0 0.230668 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2003 2 2 0 0.760142 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2004 2 2 0 0.954413 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2005 2 2 0 0.361823 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2006 2 2 0 0.833481 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2007 2 2 0 0.432416 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2008 2 2 0 0.266896 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2009 2 2 0 0.634181 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2010 2 2 0 0.171089 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2011 2 2 0 0.162402 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2012 2 2 0 0.219395 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2013 2 2 0 0.123002 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2014 2 2 0 0.161222 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2015 2 2 0 0.158505 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2016 2 2 0 0.0778903 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2017 2 2 0 0.0225171 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+ 2018 2 2 0 0.017421 0.1 2 1 1 0 0.8 # Trawl_Bycatch_discard
+# nSurveys
+6
+# Number of lines for each index (this is not correct for retrospective analyses)
+84
+## Index: One q is estimated for each index (the number of index values should match nSurveys
+## Sex: 1 = male, 2 = female, 0 = both
+## Maturity: 1 = mature, 2 = immature, 0 = both
+## Units of survey: 1 = biomass, 2 = numbers
+# Index Year Season Fleet Sex Maurity Obs CV Units
+ 1 1982 1 3 2 1 144.395 0.138 1 # NMFS_Trawl_1982_female_mature
+ 1 1983 1 3 2 1 90.1343 0.126 1 # NMFS_Trawl_1982_female_mature
+ 1 1984 1 3 2 1 42.316 0.118 1 # NMFS_Trawl_1982_female_mature
+ 1 1985 1 3 2 1 6.1218 0.106 1 # NMFS_Trawl_1982_female_mature
+ 1 1986 1 3 2 1 15.7424 0.112 1 # NMFS_Trawl_1982_female_mature
+ 1 1987 1 3 2 1 122.592 0.107 1 # NMFS_Trawl_1982_female_mature
+ 1 1988 1 3 2 1 169.954 0.149 1 # NMFS_Trawl_1982_female_mature
+ 2 1989 1 4 2 1 264.231 0.107 1 # NMFS_Trawl_1989_female_mature
+ 2 1990 1 4 2 1 182.879 0.139 1 # NMFS_Trawl_1989_female_mature
+ 2 1991 1 4 2 1 214.924 0.147 1 # NMFS_Trawl_1989_female_mature
+ 2 1992 1 4 2 1 131.436 0.094 1 # NMFS_Trawl_1989_female_mature
+ 2 1993 1 4 2 1 132.11 0.105 1 # NMFS_Trawl_1989_female_mature
+ 2 1994 1 4 2 1 126.234 0.084 1 # NMFS_Trawl_1989_female_mature
+ 2 1995 1 4 2 1 168.677 0.127 1 # NMFS_Trawl_1989_female_mature
+ 2 1996 1 4 2 1 107.315 0.125 1 # NMFS_Trawl_1989_female_mature
+ 2 1997 1 4 2 1 103.775 0.095 1 # NMFS_Trawl_1989_female_mature
+ 2 1998 1 4 2 1 72.7295 0.09 1 # NMFS_Trawl_1989_female_mature
+ 2 1999 1 4 2 1 30.8892 0.09 1 # NMFS_Trawl_1989_female_mature
+ 2 2000 1 4 2 1 96.4577 0.136 1 # NMFS_Trawl_1989_female_mature
+ 2 2001 1 4 2 1 77.2373 0.116 1 # NMFS_Trawl_1989_female_mature
+ 2 2002 1 4 2 1 30.2215 0.227 1 # NMFS_Trawl_1989_female_mature
+ 2 2003 1 4 2 1 41.7109 0.119 1 # NMFS_Trawl_1989_female_mature
+ 2 2004 1 4 2 1 50.155 0.138 1 # NMFS_Trawl_1989_female_mature
+ 2 2005 1 4 2 1 64.8537 0.113 1 # NMFS_Trawl_1989_female_mature
+ 2 2006 1 4 2 1 51.9282 0.26 1 # NMFS_Trawl_1989_female_mature
+ 2 2007 1 4 2 1 55.8924 0.147 1 # NMFS_Trawl_1989_female_mature
+ 2 2008 1 4 2 1 57.1508 0.102 1 # NMFS_Trawl_1989_female_mature
+ 2 2009 1 4 2 1 52.1622 0.128 1 # NMFS_Trawl_1989_female_mature
+ 2 2010 1 4 2 1 98.0135 0.122 1 # NMFS_Trawl_1989_female_mature
+ 2 2011 1 4 2 1 175.838 0.114 1 # NMFS_Trawl_1989_female_mature
+ 2 2012 1 4 2 1 149.423 0.119 1 # NMFS_Trawl_1989_female_mature
+ 2 2013 1 4 2 1 131.415 0.118 1 # NMFS_Trawl_1989_female_mature
+ 2 2014 1 4 2 1 119.716 0.164 1 # NMFS_Trawl_1989_female_mature
+ 2 2015 1 4 2 1 85.1268 0.118 1 # NMFS_Trawl_1989_female_mature
+ 2 2016 1 4 2 1 55.3853 0.108 1 # NMFS_Trawl_1989_female_mature
+ 2 2017 1 4 2 1 106.847 0.108 1 # NMFS_Trawl_1989_female_mature
+ 2 2018 1 4 2 1 165.895 0.172 1 # NMFS_Trawl_1989_female_mature
+ 2 2019 1 4 2 1 110.429 0.172 1 # NMFS_Trawl_1989_female_mature
+ 3 1982 1 3 1 1 176.797 0.138 1 # NMFS_Trawl_1982_male_mature
+ 3 1983 1 3 1 1 161.618 0.126 1 # NMFS_Trawl_1982_male_mature
+ 3 1984 1 3 1 1 177.691 0.118 1 # NMFS_Trawl_1982_male_mature
+ 3 1985 1 3 1 1 71.837 0.106 1 # NMFS_Trawl_1982_male_mature
+ 3 1986 1 3 1 1 89.8051 0.112 1 # NMFS_Trawl_1982_male_mature
+ 3 1987 1 3 1 1 194.578 0.107 1 # NMFS_Trawl_1982_male_mature
+ 3 1988 1 3 1 1 259.439 0.149 1 # NMFS_Trawl_1982_male_mature
+ 4 1989 1 4 1 1 299.223 0.107 1 # NMFS_Trawl_1989_male_mature
+ 4 1990 1 4 1 1 443.789 0.139 1 # NMFS_Trawl_1989_male_mature
+ 4 1991 1 4 1 1 466.607 0.147 1 # NMFS_Trawl_1989_male_mature
+ 4 1992 1 4 1 1 235.515 0.094 1 # NMFS_Trawl_1989_male_mature
+ 4 1993 1 4 1 1 183.876 0.105 1 # NMFS_Trawl_1989_male_mature
+ 4 1994 1 4 1 1 171.326 0.084 1 # NMFS_Trawl_1989_male_mature
+ 4 1995 1 4 1 1 220.466 0.127 1 # NMFS_Trawl_1989_male_mature
+ 4 1996 1 4 1 1 288.408 0.125 1 # NMFS_Trawl_1989_male_mature
+ 4 1997 1 4 1 1 326.752 0.095 1 # NMFS_Trawl_1989_male_mature
+ 4 1998 1 4 1 1 206.382 0.09 1 # NMFS_Trawl_1989_male_mature
+ 4 1999 1 4 1 1 95.8489 0.09 1 # NMFS_Trawl_1989_male_mature
+ 4 2000 1 4 1 1 96.3889 0.136 1 # NMFS_Trawl_1989_male_mature
+ 4 2001 1 4 1 1 136.5 0.116 1 # NMFS_Trawl_1989_male_mature
+ 4 2002 1 4 1 1 93.1737 0.227 1 # NMFS_Trawl_1989_male_mature
+ 4 2003 1 4 1 1 79.0687 0.119 1 # NMFS_Trawl_1989_male_mature
+ 4 2004 1 4 1 1 79.5727 0.138 1 # NMFS_Trawl_1989_male_mature
+ 4 2005 1 4 1 1 123.509 0.113 1 # NMFS_Trawl_1989_male_mature
+ 4 2006 1 4 1 1 139.268 0.26 1 # NMFS_Trawl_1989_male_mature
+ 4 2007 1 4 1 1 153.115 0.147 1 # NMFS_Trawl_1989_male_mature
+ 4 2008 1 4 1 1 141.962 0.102 1 # NMFS_Trawl_1989_male_mature
+ 4 2009 1 4 1 1 148.189 0.128 1 # NMFS_Trawl_1989_male_mature
+ 4 2010 1 4 1 1 162.827 0.122 1 # NMFS_Trawl_1989_male_mature
+ 4 2011 1 4 1 1 167.07 0.114 1 # NMFS_Trawl_1989_male_mature
+ 4 2012 1 4 1 1 122.255 0.119 1 # NMFS_Trawl_1989_male_mature
+ 4 2013 1 4 1 1 97.4605 0.118 1 # NMFS_Trawl_1989_male_mature
+ 4 2014 1 4 1 1 163.467 0.164 1 # NMFS_Trawl_1989_male_mature
+ 4 2015 1 4 1 1 80.0362 0.118 1 # NMFS_Trawl_1989_male_mature
+ 4 2016 1 4 1 1 63.2106 0.108 1 # NMFS_Trawl_1989_male_mature
+ 4 2017 1 4 1 1 83.9572 0.108 1 # NMFS_Trawl_1989_male_mature
+ 4 2018 1 4 1 1 198.384 0.172 1 # NMFS_Trawl_1989_male_mature
+ 4 2019 1 4 1 1 169.108 0.172 1 # NMFS_Trawl_1989_male_mature
+ 5 2009 1 5 2 1 8.01001 1.64 1 # BSFRF_2009_female_mature
+ 5 2009 1 5 1 1 68.4855 0.46 1 # BSFRF_2009_male_mature
+ 2 2009 1 6 2 1 7.88725 1.79 1 # NMFS_2009_female_mature
+ 4 2009 1 6 1 1 32.2487 0.32 1 # NMFS_2009_male_mature
+ 6 2010 1 7 2 1 187.588 0.1 1 # BSFRF_2010_female_mature
+ 6 2010 1 7 1 1 194.058 0.1 1 # BSFRF_2010_male_mature
+ 2 2010 1 8 2 1 61.3995 0.1 1 # NMFS_2010_female_mature
+ 4 2010 1 8 1 1 78.0273 0.1 1 # NMFS_2010_male_mature
+# nSizeComps_in
+17
+# nSizeCompRows_in
+ 37 27 24 28 28 7 31 7 31 7 31 7 31 2 2 2 2
+# nSizeCompCols_in
+ 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22
+## Sex: 1 = male, 2 = female, 0 = both
+## Type of catch: 1 = retained, 2 = discard, 0 = total
+## Shell: 1 = newshell, 2 = oldshell, 0 = both
+## Maturity: 1 = immature, 2 = mature, 0 = both
+## Stage1_EffN: the stage-1 effective sample size (this can be modified in the CTL file)
+# Year Season Fleet Sex Type Shell Maturity Stage1_EffN Data
+ 1982 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0.000194628 0.000389257 0.000973141 0.00369794 0.0198521 0.132931 0.343519 0.276373 0.140522 0.0566368 0.0184896 0.0048657 0.00155703 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1983 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0.000238284 0.00039714 0.00127085 0.00833996 0.0518665 0.188483 0.274981 0.25846 0.147578 0.0540906 0.0119936 0.00230342 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1984 2 1 1 1 0 0 100 0 0 0 0 0 0 0 6.74e-005 0 0.000202265 0.000134844 0.00168555 0.00532632 0.0211705 0.068568 0.16815 0.228425 0.234358 0.168756 0.0788161 0.0200917 0.00424758 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1985 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 5.2e-005 0.000311705 0.00135072 0.00493532 0.0261313 0.09081 0.185723 0.22105 0.213621 0.149203 0.0753285 0.0257676 0.00571458 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1986 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0.00119102 0.00458085 0.0304168 0.100962 0.166193 0.218873 0.218323 0.151168 0.0790655 0.0238205 0.00540541 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1987 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0.00241351 0.0103245 0.0186377 0.0754894 0.186377 0.228881 0.215339 0.154331 0.0821936 0.0225261 0.00348619 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1988 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0.00274904 0.00655697 0.0218498 0.0728395 0.160788 0.200538 0.21021 0.166103 0.107294 0.041256 0.00981511 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1989 2 1 1 1 0 0 100 0 0 0 0 0 0 0 6.23e-005 0.000218007 0.000342583 0.00146377 0.00261609 0.00688281 0.0261297 0.0877012 0.197016 0.218599 0.179513 0.143667 0.0894453 0.0357533 0.0105889 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1990 2 1 1 1 0 0 100 0 0 0 0 0 0 0 5.15e-005 0.000103034 0.000103034 0.000231828 0.00113338 0.00291072 0.0158673 0.0627994 0.174411 0.258951 0.22495 0.152825 0.0780227 0.0233116 0.00432744 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1991 2 1 1 1 0 0 100 0 0 0 0 0 0 0 8.63e-006 6.04e-005 0.00044891 0.00164457 0.00430782 0.00885304 0.0282339 0.0959806 0.219457 0.235492 0.187377 0.121197 0.0649065 0.0245131 0.00751925 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1992 2 1 1 1 0 0 100 0 0 0 0 0 0 0 4.39e-005 2.39e-005 0.000159625 0.000706339 0.00249812 0.00652066 0.0168604 0.0456047 0.119335 0.18957 0.240826 0.206191 0.119164 0.0408958 0.0116007 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1993 2 1 1 1 0 0 100 0 0 0 0 0 0 0 1.16e-005 8.67e-005 0.000392866 0.00123059 0.00358201 0.00714092 0.0200477 0.0609462 0.150688 0.211668 0.220744 0.174375 0.100319 0.037536 0.0112313 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1994 2 1 1 1 0 0 100 0 0 0 0 0 0 0 1.92e-005 8.66e-005 0.000875303 0.00304914 0.00755069 0.0130622 0.0358971 0.0965334 0.177292 0.202436 0.185959 0.141453 0.0875592 0.0362049 0.0120234 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1995 2 1 1 1 0 0 100 0 0 0 0 0 0 0 4.12e-005 0.000164675 0.000566071 0.00218194 0.00700898 0.0177952 0.0418687 0.106648 0.194235 0.212534 0.187576 0.129054 0.0694723 0.0237544 0.00710162 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1996 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 3.92e-005 0.000101795 0.000501144 0.00166787 0.00542644 0.0219955 0.0955305 0.253782 0.262404 0.188532 0.104708 0.0464654 0.0149951 0.00385254 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1997 2 1 1 1 0 0 100 0 0 0 0 0 0 0 5.79e-006 2.32e-005 0.00013322 0.00034753 0.000648722 0.00190563 0.00759932 0.0434006 0.158926 0.244482 0.243624 0.169896 0.0858688 0.0330211 0.0101189 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1998 2 1 1 1 0 0 100 0 0 0 0 0 0 0 2.04e-005 2.72e-005 8.84e-005 0.000217505 0.000672906 0.00189637 0.00917599 0.0469811 0.161158 0.246426 0.24869 0.174745 0.080307 0.0240479 0.00554638 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1999 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0.000115662 0.00019277 0.000154216 0.000462608 0.00111799 0.00146493 0.00713185 0.0377794 0.136969 0.220972 0.260871 0.195682 0.102698 0.0272552 0.00713186 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2000 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0.000111771 0.00059606 0.00145297 0.003502 0.00741373 0.0291707 0.11061 0.188883 0.241636 0.224052 0.134751 0.0454884 0.0123314 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2001 2 1 1 1 0 0 100 0 0 0 0 0 0 3.54e-005 0 0.000106259 0.000247911 0.00081452 0.00184148 0.00403713 0.0127487 0.0520929 0.178624 0.222289 0.214817 0.169453 0.0986614 0.0357674 0.00846377 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2002 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0.000133109 0.000843021 0.00235159 0.00732097 0.0234272 0.0932647 0.251575 0.264708 0.186752 0.10946 0.0448576 0.0123791 0.00292839 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2003 2 1 1 1 0 0 100 0 0 0 0 0 0 0 4.53e-005 0.000135943 0.000181258 0.000362516 0.000543774 0.00172195 0.00783941 0.0433207 0.16354 0.247145 0.246692 0.173645 0.0826989 0.0265543 0.00557369 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2004 2 1 1 1 0 0 100 0 0 0 0 0 0 0 5.96e-005 5.96e-005 0.000357313 0.000595522 0.00119104 0.00285851 0.00940924 0.0340043 0.10374 0.175202 0.220462 0.219092 0.150548 0.0653883 0.0170319 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2005 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0.000330754 0.000236253 0.000330754 0.000507944 0.00326029 0.0955171 0.170209 0.228279 0.234847 0.166405 0.0746678 0.025409 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2006 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 9.68e-006 8.71e-005 0.000193575 0.000261327 0.000871089 0.23982 0.378207 0.225912 0.0880768 0.0415799 0.0180896 0.00689128 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2007 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0 1.9935e-005 0.000777465 0.228262 0.345919 0.240961 0.115643 0.050502 0.0145659 0.00334908 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2008 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 1.48e-005 5.18e-005 0.000836956 0.214031 0.320102 0.242199 0.133061 0.06469 0.0209239 0.00408849 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2009 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0 3.32e-005 9.14e-005 0.12975 0.242029 0.238331 0.205567 0.12552 0.0470926 0.0115862 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2010 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4.23e-005 0.0739603 0.171695 0.234282 0.259037 0.178724 0.0661807 0.0160794 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2011 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 1.71e-005 0 0.000188038 0.000529924 0.00116241 0.0021197 0.0123762 0.0655395 0.142105 0.217542 0.255936 0.194276 0.0831296 0.0250774 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2012 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 2.16e-005 0 6.48e-005 0.000280596 0.000798619 0.00349666 0.0257716 0.12439 0.201274 0.21485 0.20354 0.144507 0.0608893 0.0201165 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2013 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 5.13e-005 0.000128166 0.000128166 0.000974059 0.00712602 0.0630063 0.218343 0.259022 0.198375 0.128986 0.0796934 0.0335538 0.0106121 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2014 2 1 1 1 0 0 100 0 0 0 0 0 0 0 2.19e-005 2.19e-005 2.19e-005 2.19e-005 0.000350263 0.00061296 0.00442207 0.0400175 0.203568 0.2926 0.22743 0.127036 0.0669659 0.0278459 0.00906305 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2015 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0.000172921 0.000518762 0.000691683 0.000172921 0.00190213 0.0221339 0.12018 0.203009 0.184506 0.172748 0.14923 0.102369 0.0423655 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2016 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0 0.000255363 0 0 0.000766088 0.0020429 0.01762 0.127681 0.237232 0.215015 0.1762 0.139939 0.0832482 0 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2017 2 1 1 1 0 0 100 0 0 0 0 0 0 0 0 0.000331675 0 0 0 0.000331675 0.00364842 0.0315091 0.243782 0.288225 0.227197 0.121725 0.0623548 0.0169154 0.00398009 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 2018 2 1 1 1 0 0 100 0 0 0 0 0 0 9.09e-005 0 0 0.000227242 0.00054538 0.00109076 0.00172704 0.00740808 0.0881698 0.262419 0.261283 0.181838 0.109394 0.0553106 0.0231332 0.00736264 # Pot_Fishery_male_retained_all_shell_immature+mature
+ 1992 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.04 0.06 0.08 0.13 0.15 0.19 0.16 0.1 0.03 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1993 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0.02 0.03 0.04 0.08 0.15 0.2 0.19 0.15 0.09 0.03 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1994 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0.02 0.03 0.04 0.04 0.06 0.1 0.15 0.17 0.15 0.12 0.07 0.03 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1995 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0.01 0.02 0.04 0.06 0.08 0.11 0.17 0.17 0.15 0.1 0.06 0.02 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1996 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.03 0.07 0.13 0.23 0.21 0.15 0.09 0.04 0.01 0 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1997 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.07 0.16 0.23 0.23 0.16 0.08 0.03 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1998 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.03 0.07 0.16 0.23 0.23 0.16 0.07 0.02 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1999 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.06 0.13 0.21 0.25 0.19 0.1 0.03 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2000 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.05 0.11 0.18 0.23 0.21 0.13 0.04 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2001 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.04 0.08 0.17 0.2 0.19 0.15 0.09 0.03 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2002 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.03 0.05 0.12 0.23 0.23 0.16 0.09 0.04 0.01 0 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2003 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.06 0.16 0.23 0.23 0.16 0.08 0.02 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2004 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0.01 0.01 0.01 0.01 0.03 0.05 0.1 0.16 0.2 0.2 0.14 0.06 0.02 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2005 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.02 0.03 0.1 0.16 0.21 0.21 0.15 0.07 0.02 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2006 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.03 0.04 0.23 0.33 0.2 0.08 0.04 0.02 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2007 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.04 0.22 0.31 0.22 0.1 0.05 0.01 0 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2008 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.04 0.21 0.29 0.22 0.12 0.06 0.02 0 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2009 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.03 0.14 0.22 0.22 0.19 0.12 0.04 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2010 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.08 0.17 0.23 0.25 0.17 0.06 0.02 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2011 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.04 0.08 0.14 0.21 0.24 0.18 0.08 0.02 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2012 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.05 0.13 0.18 0.2 0.19 0.13 0.06 0.02 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2013 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.03 0.06 0.11 0.18 0.21 0.16 0.1 0.06 0.03 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2014 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.02 0.03 0.08 0.2 0.25 0.19 0.11 0.06 0.02 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2015 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.02 0.04 0.08 0.13 0.17 0.15 0.14 0.12 0.08 0.03 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2016 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0.02 0.03 0.07 0.13 0.2 0.18 0.15 0.12 0.07 0 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2017 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0.01 0.02 0.03 0.05 0.1 0.22 0.22 0.17 0.09 0.05 0.01 0 # Pot_Fishery_male_total_all_shell_immature+mature
+ 2018 2 1 1 0 0 0 100 0 0 0 0 0 0 0 0 0 0.01 0.02 0.03 0.04 0.06 0.13 0.24 0.2 0.13 0.08 0.04 0.02 0.01 # Pot_Fishery_male_total_all_shell_immature+mature
+ 1995 2 1 2 2 0 0 100 0 0 0 0 0.00277778 0.0277778 0.105556 0.186111 0.216667 0.241667 0.0916667 0.0277778 0.0333333 0.0666667 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 1996 2 1 2 2 0 0 100 0 0 0 0 0.00769231 0.0230769 0.123077 0.176923 0.315385 0.184615 0.0846154 0.0615385 0.0230769 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 1997 2 1 2 2 0 0 100 0 0 0 0 0.0017301 0.0017301 0.108997 0.243945 0.297578 0.271626 0.0553633 0.00519031 0.0138408 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 1998 2 1 2 2 0 0 100 0 0 0.0125 0 0 0.0375 0.125 0.2375 0.25 0.275 0.0375 0.025 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 1999 2 1 2 2 0 0 100 0 0 0 0.0140845 0.0422535 0.084507 0.253521 0.309859 0.28169 0.0140845 0 0 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2000 2 1 2 2 0 0 100 0 0 0 0.0140845 0.0422535 0.084507 0.253521 0.309859 0.28169 0.0140845 0 0 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2001 2 1 2 2 0 0 100 0 0 0 0.0140845 0.0422535 0.084507 0.253521 0.309859 0.28169 0.0140845 0 0 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2002 2 1 2 2 0 0 100 0 0 0 0 0 0.0322581 0.193548 0.274194 0.354839 0.112903 0.0322581 0 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2003 2 1 2 2 0 0 100 0 0 0 0 0 0.0322581 0.193548 0.274194 0.354839 0.112903 0.0322581 0 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2004 2 1 2 2 0 0 100 0 0 0 0 0 0.222222 0.222222 0.111111 0.222222 0 0.111111 0 0 0.111111 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2005 2 1 2 2 0 0 100 0 0 0 0 0 0.0629921 0.259843 0.291339 0.228346 0.0787402 0.0708661 0.00787402 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2006 2 1 2 2 0 0 100 0 0 0 0 0 0 0.0350877 0.140351 0.333333 0.263158 0.157895 0.0175439 0.0526316 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2007 2 1 2 2 0 0 100 0 0 0 0 0 0 0.0109589 0.205479 0.257534 0.30411 0.134247 0.0383562 0.0328767 0.0109589 0.00273973 0.00273973 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2008 2 1 2 2 0 0 100 0 0 0 0 0 0 0.021692 0.164859 0.264642 0.368764 0.160521 0.0130152 0.00433839 0.0021692 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2009 2 1 2 2 0 0 100 0 0 0 0 0 0.00406504 0.00406504 0.0934959 0.321138 0.386179 0.150407 0.0284553 0.00406504 0.00813008 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2010 2 1 2 2 0 0 100 0 0 0 0 0 0.0172414 0.0905172 0.237069 0.284483 0.273707 0.0668103 0.0150862 0.0107759 0 0.00431034 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2011 2 1 2 2 0 0 100 0 0 0.000356697 0.00481541 0.0304976 0.264848 0.299269 0.190476 0.15231 0.0458356 0.00784733 0.00178348 0.000535045 0.000535045 0.000891742 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2012 2 1 2 2 0 0 100 0 0 0 0.00186683 0.00808961 0.0304916 0.0584941 0.0920971 0.146857 0.338519 0.242688 0.0653391 0.0136901 0.000622278 0.00124456 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2013 2 1 2 2 0 0 100 0 0 0 0 0.000341064 0.00989086 0.0443383 0.0985675 0.183151 0.380286 0.232947 0.0405866 0.00750341 0.00204638 0.000341064 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2014 2 1 2 2 0 0 100 0 0 0 0 0.00017337 0.0109223 0.0353675 0.0788835 0.227982 0.394764 0.215326 0.028086 0.00572122 0.00208044 0.000520111 0.00017337 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2015 2 1 2 2 0 0 100 0 0 0 0 0.000434405 0.0186794 0.050391 0.116855 0.256299 0.365769 0.163771 0.0208514 0.00521286 0.000434405 0.000434405 0.000434405 0.000434405 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2016 2 1 2 2 0 0 100 0 0 0 0 0 0.00637755 0.0229592 0.0688776 0.219388 0.397959 0.225765 0.0408163 0.00892857 0.00510204 0.00255102 0 0.00127551 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2017 2 1 2 2 0 0 100 0 0 0 0.0019084 0.0019084 0.0114504 0.0477099 0.160305 0.387405 0.282443 0.0687023 0.0152672 0.019084 0.00381679 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 2018 2 1 2 2 0 0 100 0 0 0 0.00357143 0.0428571 0.128571 0.253571 0.257143 0.232143 0.0642857 0.0107143 0.00714286 0 0 0 0 0 0 0 0 0 0 # Pot_Fishery_female_discard_all_shell_immature+mature
+ 1991 2 2 2 2 0 0 100 0.0102514 0.00863643 0.00603848 0.00912793 0.0155175 0.0213453 0.0286477 0.0377756 0.0407246 0.0288583 0.0108833 0.00280859 0.00112344 0.00014043 0.000351074 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1992 2 2 2 2 0 0 100 0.0080061 0.0443195 0.0491803 0.0464163 0.0386961 0.0277354 0.0304041 0.0176325 0.0104842 0.00524209 0.00190621 0.000762486 0.00104842 0.000762486 0.000857796 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1993 2 2 2 2 0 0 100 0.000588235 0.00294118 0.0414706 0.113824 0.0773529 0.0544118 0.00852941 0.00382353 0.00147059 0.000294118 0.000588235 0.000588235 0.000294118 0 0 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1994 2 2 2 2 0 0 100 0 0 0.000738007 0 0 0 0.00147601 0 0.00295203 0.000738007 0 0 0 0 0 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1995 2 2 2 2 0 0 100 0.002849 0.00237417 0.0014245 0.00474834 0.017094 0.0132953 0.0151947 0.00854701 0.00332384 0.000474834 0.000474834 0.000474834 0 0 0 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1996 2 2 2 2 0 0 100 0 0 0 0.0040404 0.010101 0.0040404 0.010101 0.0141414 0.0181818 0.00606061 0.0040404 0.0020202 0 0 0.0020202 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1997 2 2 2 2 0 0 100 0 0 0.000149298 0.00149298 0.0161989 0.0373992 0.0573305 0.0337414 0.0169454 0.00492684 0.00149298 0.00141833 0.00134368 0.000746491 0.000373246 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1998 2 2 2 2 0 0 100 0.00046804 0.000267451 0.000601765 0.00213961 0.00909334 0.0192565 0.0141081 0.00855844 0.00447981 0.00147098 0.000668628 0.000334314 0.000534902 0.000200588 0.000200588 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1999 2 2 2 2 0 0 100 0.000286266 0.000357833 0.0012882 0.00121663 0.00229013 0.0040793 0.00379303 0.00207543 0.0017176 0.000572533 0.000572533 7.16e-005 0.000286266 0.000143133 0.0002147 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2000 2 2 2 2 0 0 100 0.000428837 0.000714728 0.00347834 0.00795731 0.00681374 0.0129604 0.0162958 0.00957736 0.00466956 0.00104827 0.000428837 0.000524134 0.000238243 0.000142946 0 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2001 2 2 2 2 0 0 100 0.000131173 0.00170525 0.00150849 0.00360727 0.00236112 0.00819833 0.0114121 0.00708336 0.00603397 0.00222995 0.00078704 0.000327933 0.000327933 0.000327933 0.000131173 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2002 2 2 2 2 0 0 100 0.000169062 0.00028177 0.000788955 0.00214145 0.00247957 0.00777684 0.00969287 0.00631164 0.00433925 0.00208509 0.00135249 0.000676247 0.000338123 0.000563539 0.00028177 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2003 2 2 2 2 0 0 100 0.000193555 0.000435498 0.000290332 0.000483887 0.00295171 0.00677441 0.00735508 0.00706474 0.00445176 0.00159683 0.00072583 0.000870996 4.84e-005 0.000435498 0.000532275 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2004 2 2 2 2 0 0 100 0.00290698 0.0418707 0.0208078 0.00775194 0.00622195 0.0106079 0.0132089 0.0129539 0.00912893 0.00377397 0.00152999 0.000815993 0.000254998 0.000305998 0.000356997 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2005 2 2 2 2 0 0 100 0.00321469 0.00619699 0.00778496 0.020605 0.0495372 0.065262 0.0280026 0.00697161 0.00495759 0.00220768 0.00131686 0.000580968 0.000116194 0.000154925 3.87e-005 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2006 2 2 2 2 0 0 100 0.00019977 0.000399541 0.000599311 0.00209759 0.00804075 0.0206263 0.0274684 0.0179793 0.011287 0.00659242 0.0030465 0.000998851 0.000349598 0.000349598 9.99e-005 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2007 2 2 2 2 0 0 100 0.000111346 0.00129904 0.00386 0.018966 0.043425 0.0501058 0.0318821 0.0120625 0.00389712 0.00129904 0.00103923 0.000371154 0.000222692 0.000371154 0.000259808 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2008 2 2 2 2 0 0 100 0.000463213 0.000772022 0.00069482 0.00146684 0.00579016 0.0160581 0.028256 0.0240099 0.0251679 0.014514 0.00586737 0.0035513 0.00231607 0.00169845 0.000849224 0.000386011 0.000154404 0.000231607 0.000154404 0 7.72e-005 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2009 2 2 2 2 0 0 100 0.000126662 0.00050665 0.000886637 0.0010133 0.0050665 0.0172261 0.0352122 0.0400253 0.0347055 0.0193794 0.00620646 0.0020266 0.00151995 0.00126662 0.0010133 0.000379987 0.00050665 0.000253325 0 0 0.000126662 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2010 2 2 2 2 0 0 100 0.000375432 0.00337889 0.00135155 0.0016519 0.0125394 0.0456525 0.0649497 0.0506833 0.035666 0.0144166 0.00360414 0.00142664 0.00135155 0.000675777 0.00082595 0.000150173 0.000150173 0 0 7.51e-005 0 0.000150173 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2011 2 2 2 2 0 0 100 0 0.000635901 0.000817587 0.0065407 0.0178052 0.025436 0.0313408 0.0326126 0.0337936 0.0160792 0.00608648 0.00245276 0.0012718 0.000635901 0.000726744 0.000363372 9.0843e-005 0.000181686 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2012 2 2 2 2 0 0 100 0.000350355 0.000262766 0.000525532 0.00175177 0.00420426 0.0164667 0.0238241 0.0333713 0.0372252 0.0230358 0.0112114 0.00455461 0.00140142 0.000613121 0.000613121 0.000700709 8.76e-005 8.76e-005 8.76e-005 0.000175177 0 8.76e-005 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2013 2 2 2 2 0 0 100 0.00110718 0.0035617 0.00366534 0.00641308 0.0108039 0.0185542 0.0244213 0.0197524 0.016307 0.00879428 0.00393581 0.0019717 0.00127655 0.000879681 0.000586454 0 0 0 0 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2014 2 2 2 2 0 0 100 0.000318801 0.00310831 0.00310831 0.0120347 0.0183311 0.014904 0.0131506 0.0123536 0.0133897 0.01331 0.00852793 0.00414442 0.00231131 0.0010361 0.000398502 0.000478202 0.000239101 0.000159401 0.000159401 0 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2015 2 2 2 2 0 0 100 0.000854476 0.00170895 0.00256343 0.00854476 0.0139345 0.0153806 0.0239911 0.0248455 0.0099908 0.00598133 0.00190614 0.000854476 0.000328645 0.000394374 0.000394374 0.000131458 0.000262916 0.000197187 6.57e-005 0 0 6.57e-005 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2016 2 2 2 2 0 0 100 0.000194212 0.000582637 0.00320451 0.00640901 0.0113614 0.0177704 0.015537 0.0102933 0.00757429 0.00679744 0.00446689 0.00378714 0.00203923 0.00106817 0.000873956 0.000291319 0.000582637 0.000388425 0.000194212 0.000194212 0 0 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2017 2 2 2 2 0 0 100 0.000283527 0.000567054 0.00378036 0.0142709 0.0131368 0.015783 0.010396 0.0073717 0.00406389 0.00321331 0.00217371 0.000567054 0.0010396 0.000567054 0.000378036 0.000756072 0.000283527 9.4509e-005 0.000283527 0 0.000283527 9.4509e-005 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 2018 2 2 2 2 0 0 100 0.000256715 0.000385072 0.000545519 0.0036261 0.00888875 0.0186118 0.0143439 0.00709174 0.00311267 0.00121939 0.000417161 0.000577608 0.000224625 0.000320893 0.000224625 6.42e-005 0.000128357 9.6268e-005 0 6.42e-005 3.21e-005 6.42e-005 # Trawl_Bycatch_female_discard_all_shell_immature+mature
+ 1991 2 2 1 2 0 0 100 0.0154473 0.0181154 0.0110237 0.0197304 0.0216964 0.0186069 0.0182559 0.0195899 0.0195197 0.0192389 0.032369 0.0406544 0.0641764 0.093456 0.0986519 0.0747086 0.0547676 0.0495015 0.0412863 0.0254178 0.016009 0.00554697 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1992 2 2 1 2 0 0 100 0.0080061 0.0382196 0.0510865 0.0632863 0.0801563 0.0441289 0.044796 0.0329775 0.0264011 0.0171559 0.021159 0.0147732 0.0171559 0.0190621 0.0260198 0.0331681 0.0408883 0.0485132 0.0442242 0.027926 0.0130576 0.00438429 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1993 2 2 1 2 0 0 100 0 0.000588235 0.00441176 0.0326471 0.05 0.0582353 0.0841176 0.0761765 0.0482353 0.0414706 0.0458824 0.0373529 0.0276471 0.0267647 0.0273529 0.0252941 0.0211765 0.0402941 0.0282353 0.0123529 0.00470588 0.000882353 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1994 2 2 1 2 0 0 100 0 0 0 0.000738007 0.000738007 0.00295203 0.00442804 0.00516605 0.00295203 0.00295203 0.00811808 0.0147601 0.0369004 0.0597786 0.107749 0.15203 0.178598 0.17048 0.133579 0.0656827 0.0287823 0.0177122 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1995 2 2 1 2 0 0 100 0.000474834 0.002849 0.000474834 0.00759734 0.022792 0.0436847 0.0503324 0.0441595 0.0569801 0.0356125 0.0294397 0.02849 0.0356125 0.0541311 0.0660019 0.0797721 0.0992403 0.110161 0.0764482 0.0470085 0.0270655 0.011396 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1996 2 2 1 2 0 0 100 0 0.00606061 0.00606061 0.0020202 0.00606061 0.00606061 0.0181818 0.0606061 0.0424242 0.0686869 0.0626263 0.0323232 0.0585859 0.0787879 0.111111 0.121212 0.0747475 0.0565657 0.0505051 0.040404 0.020202 0.0020202 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1997 2 2 1 2 0 0 100 0.000223947 0.000223947 0.000223947 0 0.000522544 0.00209018 0.00776351 0.0130636 0.0178411 0.0253807 0.036802 0.0454613 0.0809197 0.11802 0.130263 0.114885 0.0892057 0.070842 0.0378471 0.0202299 0.00955509 0.00507614 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1998 2 2 1 2 0 0 100 0.000601765 0.000334314 0.000601765 0.00046804 0.000534902 0.00140412 0.00213961 0.00341 0.00829099 0.013172 0.0213961 0.037042 0.060444 0.102634 0.141214 0.146764 0.144557 0.123362 0.0820407 0.0325622 0.012169 0.00247392 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1999 2 2 1 2 0 0 100 0.0004294 0.000357833 0.000644099 0.0004294 0.000500966 0.00207543 0.00543906 0.00658413 0.00701353 0.0121663 0.0128104 0.0256924 0.0493094 0.0918915 0.132112 0.145853 0.154011 0.141344 0.108996 0.0578258 0.0201102 0.00543906 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2000 2 2 1 2 0 0 100 0.000476485 0.00119121 0.00438367 0.0066708 0.00633726 0.0106256 0.0234431 0.0325916 0.0312574 0.027922 0.0268261 0.0291133 0.0413589 0.0568447 0.0716634 0.092867 0.12422 0.138228 0.116405 0.0647067 0.021966 0.00562253 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2001 2 2 1 2 0 0 100 0.000459107 0.000459107 0.00209877 0.00150849 0.00183643 0.00321375 0.00996917 0.0198072 0.0255132 0.0284646 0.0323342 0.0299731 0.0365974 0.0549616 0.0861153 0.120352 0.137404 0.144881 0.118712 0.0668328 0.0253165 0.00701777 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2002 2 2 1 2 0 0 100 0.000225416 0.00028177 0.000676247 0.00152156 0.000958016 0.0021978 0.00879121 0.017357 0.0248521 0.0333052 0.0477318 0.053818 0.0591152 0.0779374 0.103409 0.118287 0.125895 0.1153 0.0903353 0.0531981 0.0195548 0.00597351 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2003 2 2 1 2 0 0 100 4.84e-005 0.000241943 0.000387109 0.000338721 0.00116133 0.00280654 0.00600019 0.0124359 0.0198393 0.0258879 0.0322752 0.0409852 0.0586471 0.0841479 0.125181 0.139698 0.141488 0.123536 0.0840027 0.045195 0.0172748 0.00420981 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2004 2 2 1 2 0 0 100 0.00117299 0.0442166 0.0219808 0.00902693 0.00331497 0.00566095 0.0226948 0.0402387 0.0384537 0.0390147 0.0381477 0.0359547 0.0420747 0.0550286 0.0721644 0.0825683 0.0853223 0.0832823 0.0705324 0.0458996 0.0236638 0.00708894 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2005 2 2 1 2 0 0 100 0.00209148 0.00317596 0.00352454 0.00937294 0.022619 0.0290096 0.0223866 0.0259499 0.0309462 0.031411 0.0388861 0.0455091 0.0531004 0.0541849 0.0570123 0.0616213 0.0615438 0.0721174 0.0765328 0.0596073 0.0314884 0.0109609 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2006 2 2 1 2 0 0 100 0.000249713 0.000399541 0.000249713 0.00114868 0.00289667 0.00369575 0.0070419 0.0141837 0.0222244 0.0262698 0.0401538 0.0607801 0.0697198 0.0571842 0.0664236 0.0858513 0.089547 0.103032 0.100235 0.0844529 0.0453978 0.0187285 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2007 2 2 1 2 0 0 100 0.000111346 0.000334039 0.000371154 0.00152173 0.00330327 0.00664366 0.0133615 0.0181865 0.027354 0.0301377 0.0403444 0.0562669 0.0610919 0.0808744 0.10667 0.126823 0.114687 0.0726348 0.0391567 0.019634 0.00809116 0.00322904 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2008 2 2 1 2 0 0 100 0.000463213 0.00177565 0.000540415 0.00115803 0.00185285 0.00586737 0.0196094 0.0468617 0.0659307 0.0700996 0.0657763 0.0750405 0.078283 0.0765846 0.0760442 0.0894001 0.0728017 0.0566664 0.0322705 0.0165213 0.00802903 0.00594457 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2009 2 2 1 2 0 0 100 0.000633312 0.0010133 0.000633312 0.00126662 0.0010133 0.0030399 0.0120329 0.0345788 0.0550982 0.0642179 0.0664978 0.0629512 0.0633312 0.0613046 0.0666244 0.0732109 0.0699177 0.0662445 0.0534516 0.039392 0.0205193 0.0155795 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2010 2 2 1 2 0 0 100 0.000600691 0.00390449 0.00150173 0.00232768 0.0049557 0.00473044 0.0135906 0.0266557 0.0352155 0.0400961 0.0500826 0.0589428 0.0811683 0.0985884 0.0970116 0.0659258 0.0485058 0.0379186 0.0362667 0.0290584 0.0159934 0.00788407 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2011 2 2 1 2 0 0 100 0.000545058 0.00145349 0.00236192 0.00826672 0.0162609 0.0110828 0.0236192 0.0420603 0.0493278 0.0467842 0.0639535 0.0703125 0.0740371 0.0740371 0.072311 0.0593205 0.0476017 0.0442406 0.0446039 0.0339753 0.0232558 0.0137173 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2012 2 2 1 2 0 0 100 0.000525532 0.000788298 0.000963476 0.00192695 0.00499255 0.0166418 0.0490497 0.0689323 0.0561443 0.0442323 0.0590348 0.0732241 0.0700709 0.058772 0.0578085 0.0589472 0.0536919 0.0478234 0.0453709 0.0344224 0.0215468 0.0144521 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2013 2 2 1 2 0 0 100 0.00144086 0.00378414 0.00402176 0.00593532 0.00769215 0.0100228 0.0197271 0.0312413 0.040162 0.0458319 0.0478996 0.0472525 0.0521615 0.0616661 0.0759129 0.0850459 0.0895126 0.0867825 0.0724776 0.049841 0.024856 0.0147018 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2014 2 2 1 2 0 0 100 0.00215191 0.00326771 0.00183311 0.00541962 0.00956404 0.00844823 0.01331 0.0215191 0.0293297 0.0392126 0.0431179 0.0512473 0.0518052 0.0633618 0.0828883 0.100741 0.0977126 0.0832071 0.0689408 0.0517255 0.0314019 0.0183311 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2015 2 2 1 2 0 0 100 0.00170895 0.000985934 0.00414092 0.0141974 0.0153148 0.0164322 0.0400289 0.0575785 0.0450243 0.0452872 0.0481793 0.0594847 0.0524517 0.0448271 0.047522 0.0512686 0.0556067 0.0505456 0.0559353 0.0723676 0.0635599 0.0451558 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2016 2 2 1 2 0 0 100 0.000873956 0.00106817 0.00252476 0.00708876 0.0116527 0.0200039 0.0328219 0.0412701 0.039328 0.0428238 0.0589435 0.0650612 0.0672946 0.0736065 0.077685 0.0801126 0.0715673 0.0586522 0.0469023 0.0442804 0.0362206 0.0266071 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2017 2 2 1 2 0 0 100 0.000283527 0.000850581 0.00548152 0.0124752 0.0252339 0.0301484 0.0361024 0.0388432 0.0386542 0.0400718 0.0435687 0.0452698 0.0511294 0.0747566 0.0916738 0.0843021 0.0776864 0.0724884 0.057745 0.0447028 0.0327946 0.0163501 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 2018 2 2 1 2 0 0 100 0.000385072 0.000352983 0.00109104 0.00253506 0.0151462 0.0721368 0.143151 0.157912 0.122453 0.0986747 0.0829188 0.0656869 0.0490325 0.0360684 0.0320252 0.0222058 0.0149215 0.00911337 0.00596862 0.00429997 0.00198954 0.00163656 # Trawl_Bycatch_male_discard_all_shell_immature+mature
+ 1982 1 3 2 2 0 2 100 0.000314638 0.000833882 0.000116163 0.000687518 0.00282138 0.0085966 0.00356032 0.000857423 0.000207891 3.46e-005 0 7.6e-006 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_immature
+ 1983 1 3 2 2 0 2 100 0.0146813 0.010802 0.00137597 0.00114959 0.00800712 0.00685992 0.00121444 0.000264071 1.9101e-005 0 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_immature
+ 1984 1 3 2 2 0 2 100 0.0131051 0.0227003 0.0168713 0.0469107 0.0711187 0.0173365 0.00257555 0.000349813 1.13e-005 3.43e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_immature
+ 1985 1 3 2 2 0 2 100 0.0136092 0.0390155 0.0372294 0.0822572 0.0408367 0.0199561 0.00586677 0.000980922 9.7e-005 0 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_immature
+ 1986 1 3 2 2 0 2 100 0.0060485 0.0359736 0.0481016 0.108693 0.0812898 0.0396557 0.0273153 0.00486951 0.000617806 0.000302489 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_immature
+ 1987 1 3 2 2 0 2 100 0.00159416 0.00258074 0.0307435 0.0911306 0.102144 0.0532387 0.0349025 0.0103161 0.0015471 0.000109047 1.8078e-005 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_immature
+ 1988 1 3 2 2 0 2 100 0.00116092 0.00867847 0.0153454 0.0319263 0.0361875 0.0219066 0.0129179 0.0043787 0.000647538 5.1278e-005 6.24e-006 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_immature
+ 1989 1 4 2 2 0 2 100 0.000118014 0.000860846 0.00292847 0.0153477 0.0177565 0.0125407 0.0104599 0.00389136 0.000720192 0.000108222 6.16e-005 1.56e-005 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1990 1 4 2 2 0 2 100 0.000387957 0.00772522 0.0347138 0.0170036 0.0332739 0.023985 0.0196702 0.00822257 0.000817141 0.00108438 0.000513012 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1991 1 4 2 2 0 2 100 0.0179712 0.0197087 0.0171511 0.0415559 0.0620691 0.0334836 0.0174108 0.0078115 0.000875408 0.00010493 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1992 1 4 2 2 0 2 100 0.0130381 0.0284182 0.0435951 0.0772228 0.0599409 0.0149183 0.0113109 0.0045093 0.000583525 2.88e-005 1.98e-005 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1993 1 4 2 2 0 2 100 0.016706 0.0340279 0.0509173 0.0869153 0.0683568 0.0182913 0.00406734 0.000832583 5.73e-005 2.17e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1994 1 4 2 2 0 2 100 0.0181026 0.031213 0.0653277 0.0971891 0.0545582 0.0163084 0.00631137 0.00193026 0.000328496 4.38e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1995 1 4 2 2 0 2 100 0.00104376 0.00889275 0.0230549 0.0311642 0.0428486 0.0182067 0.00232706 0.000289051 8.54e-005 2.97e-005 1.7e-005 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1996 1 4 2 2 0 2 100 0.000167431 0.000818176 0.00217065 0.00991975 0.0206371 0.0116529 0.00253335 0.000205013 5.39e-005 3.92e-006 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1997 1 4 2 2 0 2 100 0.000229417 0.000582913 0.00119523 0.00469075 0.0180567 0.00952952 0.00247309 0.000139355 4.02e-005 0 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1998 1 4 2 2 0 2 100 0.00347767 0.00250876 0.00280017 0.0169291 0.0377432 0.0271928 0.0193031 0.00632601 4.57e-005 2.02e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1999 1 4 2 2 0 2 100 0.00792904 0.0276906 0.0162823 0.0218842 0.0285865 0.0161171 0.00993065 0.00876907 0.003559 0.000897171 6.36e-005 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2000 1 4 2 2 0 2 100 0.00415494 0.0102677 0.0149912 0.0327293 0.0294997 0.0210419 0.00781699 0.00179226 0.000237793 9.8e-005 2e-005 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2001 1 4 2 2 0 2 100 0.00122714 0.00356421 0.0135989 0.0473682 0.0162972 0.0263137 0.0229126 0.00368468 0.000833059 2.67e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2002 1 4 2 2 0 2 100 0.00122761 0.00648626 0.0055034 0.0192742 0.0183633 0.0226075 0.0134546 0.000929036 6.1e-005 0 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2003 1 4 2 2 0 2 100 0.0117675 0.0220405 0.0264463 0.040123 0.0590354 0.0286824 0.0146679 0.00221537 0.000301804 4.85e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2004 1 4 2 2 0 2 100 0.00703027 0.061585 0.157597 0.0600355 0.0480766 0.0136728 0.00313825 0.000429286 0.000153951 6.7e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2005 1 4 2 2 0 2 100 0.00238084 0.0147599 0.0181648 0.0728706 0.100035 0.0887932 0.0212498 0.00759045 0.000852986 2.25e-005 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2006 1 4 2 2 0 2 100 0.0045469 0.0166212 0.0302857 0.0758614 0.0518943 0.0271265 0.0330248 0.0223012 0.00187199 0.00064582 0.000320169 8.76e-006 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2007 1 4 2 2 0 2 100 0.000724633 0.00233752 0.00757934 0.0134405 0.0528384 0.0797438 0.0425293 0.00956352 0.00109224 0.000289594 7.19e-005 0 2.87e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2008 1 4 2 2 0 2 100 0.00867704 0.0166312 0.00838939 0.0164611 0.0183714 0.0222382 0.0164453 0.004276 0.00127734 0.0001021 2.74e-005 0 1.42e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2009 1 4 2 2 0 2 100 0.0191262 0.0478541 0.0594415 0.0534824 0.10273 0.0448844 0.00969289 0.00249467 0.000232959 0.000120542 3.84e-005 0 0 8.62e-006 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2010 1 4 2 2 0 2 100 0.0124749 0.0201811 0.0271119 0.139977 0.172625 0.0212825 0.00819477 0.00203621 0.000112547 2.41e-005 3.51e-006 6.33e-006 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2011 1 4 2 2 0 2 100 0.00902057 0.0162309 0.0180045 0.0430038 0.0376325 0.0266779 0.0146925 0.0137842 0.00301595 0.000367495 1.86e-005 2.65e-006 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2012 1 4 2 2 0 2 100 0.00659826 0.0167339 0.0362887 0.0555033 0.0369648 0.0158614 0.0175375 0.0212409 0.00700331 0.000810077 5.83e-005 0 0.000110974 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2013 1 4 2 2 0 2 100 0.00734763 0.041259 0.0415815 0.0360724 0.0408267 0.0295402 0.0217884 0.00812527 0.000881251 6.39e-005 0.000132887 6.27e-006 3.22e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2014 1 4 2 2 0 2 100 0.00992217 0.0189154 0.0126916 0.0562081 0.0948255 0.0600437 0.0262138 0.0152596 0.00015169 1.3893e-005 2.86e-005 3.4e-006 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2015 1 4 2 2 0 2 100 0.0125945 0.0584528 0.0977707 0.0855654 0.05307 0.0203379 0.0102276 0.00118534 5.86e-006 0.000498176 3.91e-006 7.8e-006 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2016 1 4 2 2 0 2 100 0.0105235 0.0523929 0.0907103 0.119308 0.0848236 0.0285666 0.00652754 0.000391023 5.89e-006 0 0 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2017 1 4 2 2 0 2 100 0.00500295 0.0377983 0.0379614 0.136134 0.0681213 0.0145168 0.00437007 0.000382464 3.09e-005 2.4e-005 3.43e-006 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2018 1 4 2 2 0 2 100 0.0019704 0.00170873 0.00938725 0.0902796 0.0900914 0.0219137 0.0046017 0.000281913 3.96e-006 0 1.9e-005 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 2019 1 4 2 2 0 2 100 0.0019704 0.00170873 0.00938725 0.0902796 0.0900914 0.0219137 0.0046017 0.000281913 3.96e-006 0 1.9e-005 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_immature
+ 1982 1 3 1 2 0 2 100 0.000272564 0.000279821 0.000589246 0.00297579 0.0122403 0.0263732 0.0349596 0.0314437 0.0284088 0.0265197 0.0241071 0.0189574 0.0138643 0.00909671 0.0052054 0.00213869 0.000408616 0.000151394 4.58e-005 1.37e-005 1.57e-005 7.35e-007 # NMFS_Trawl_1982_male_discard_all_shell_immature
+ 1983 1 3 1 2 0 2 100 0.0150765 0.0220969 0.0030183 0.00436202 0.0123052 0.0207457 0.0316753 0.0348826 0.0292638 0.0190184 0.0152457 0.0160456 0.0172218 0.0145271 0.00712568 0.00260002 0.000764962 0.000235006 8.1e-005 1.9865e-005 1.68e-005 4.14e-007 # NMFS_Trawl_1982_male_discard_all_shell_immature
+ 1984 1 3 1 2 0 2 100 0.0198307 0.0329218 0.0330259 0.0450942 0.0570382 0.0188784 0.0122291 0.0119353 0.0128937 0.0112346 0.0118518 0.0122711 0.0119187 0.0121592 0.00813695 0.00372649 0.00168659 0.000869427 0.000498452 0.000117886 9.95e-005 2.37e-006 # NMFS_Trawl_1982_male_discard_all_shell_immature
+ 1985 1 3 1 2 0 2 100 0.0172279 0.0397042 0.0422901 0.0650361 0.0444483 0.0287452 0.027563 0.0224977 0.0131135 0.0118784 0.0139018 0.0158686 0.0151424 0.012298 0.00869814 0.00490333 0.00219921 0.00130358 0.000880476 0.000212428 0.000149271 3.26e-006 # NMFS_Trawl_1982_male_discard_all_shell_immature
+ 1986 1 3 1 2 0 2 100 0.0202351 0.0695116 0.0455958 0.0489972 0.0385252 0.0401428 0.0369982 0.0257777 0.0154852 0.0118843 0.0089527 0.0072785 0.0045736 0.00340931 0.00268693 0.00173724 0.000730033 0.000422745 0.000244421 6.6e-005 5.19e-005 9.35e-007 # NMFS_Trawl_1982_male_discard_all_shell_immature
+ 1987 1 3 1 2 0 2 100 0.00116673 0.0105819 0.0582717 0.0782206 0.0521037 0.0326007 0.0346542 0.0227909 0.0133137 0.00819774 0.0066773 0.00492819 0.00357683 0.00326254 0.00209688 0.00109617 0.000373493 0.000161834 9.9774e-005 2.36e-005 2.61e-005 4.68e-007 # NMFS_Trawl_1982_male_discard_all_shell_immature
+ 1988 1 3 1 2 0 2 100 0.00116532 0.0171963 0.0302211 0.044658 0.048016 0.0522765 0.0454711 0.0346247 0.0199993 0.0166156 0.0119949 0.0104058 0.0063303 0.00485905 0.0030068 0.00162749 0.000532419 0.000271832 0.000200033 6.56e-005 0.000102697 1.84e-006 # NMFS_Trawl_1982_male_discard_all_shell_immature
+ 1989 1 4 1 2 0 2 100 0.000127934 0.00117652 0.00855203 0.0284692 0.0279578 0.0250503 0.023435 0.0223035 0.0259684 0.0224195 0.0156364 0.0125971 0.0089614 0.00630152 0.00366329 0.00151765 0.000497567 0.000186327 0.000120734 3.93e-005 4.19e-005 1.68e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1990 1 4 1 2 0 2 100 0.000868692 0.00737188 0.0145584 0.0134179 0.0202073 0.025762 0.0251105 0.0190136 0.0154196 0.0117899 0.0104273 0.0118505 0.012856 0.0164116 0.0124244 0.00569906 0.00160832 0.000663878 0.000462695 0.000111795 0.000123963 5.09e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1991 1 4 1 2 0 2 100 0.015298 0.0185223 0.0234374 0.0362142 0.0360535 0.0239034 0.0274995 0.0222589 0.0126308 0.0062923 0.00562597 0.00593889 0.00692955 0.00826671 0.00458092 0.00191235 0.00077101 0.00066889 0.000518392 0.000191936 0.000272342 1.06e-005 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1992 1 4 1 2 0 2 100 0.0110118 0.0292915 0.0393384 0.0746336 0.0745582 0.027213 0.0156411 0.0133641 0.00958731 0.00551324 0.00606154 0.00510417 0.00382473 0.00294657 0.00188059 0.00121217 0.000578045 0.000405955 0.000311331 0.000102425 0.000124726 4.26e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1993 1 4 1 2 0 2 100 0.0138157 0.0402688 0.0505759 0.0738608 0.0618509 0.0540997 0.0376217 0.0225439 0.00995898 0.00584442 0.00399394 0.00308389 0.00176491 0.00145378 0.00101704 0.000627907 0.000211962 0.000127335 0.000107148 3.1243e-005 3.4046e-005 1.58e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1994 1 4 1 2 0 2 100 0.00956701 0.0330057 0.0446488 0.0544644 0.0443544 0.0421672 0.0387076 0.0287119 0.018899 0.0118969 0.00713753 0.00443217 0.0018069 0.00128242 0.000558247 0.000389361 0.000109063 7e-005 5.7627e-005 1.68e-005 2.45e-005 5.27e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1995 1 4 1 2 0 2 100 0.00188797 0.00737351 0.0124761 0.0203183 0.0389085 0.0461345 0.0447714 0.0411042 0.0312803 0.0222919 0.0123486 0.00911466 0.00583923 0.00381344 0.00185477 0.000726524 0.000153343 7.08e-005 4.25e-005 1.33e-005 1.19e-005 2.27e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1996 1 4 1 2 0 2 100 0.000348149 0.000957316 0.00457967 0.00963723 0.0131669 0.021674 0.0305827 0.0338655 0.0343629 0.0281687 0.0237417 0.0234251 0.0195713 0.0156449 0.00801816 0.0035325 0.00101034 0.000376381 0.000179559 3.65e-005 3.968e-005 1.38e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1997 1 4 1 2 0 2 100 0.000176188 0.000483259 0.00169754 0.00487351 0.00876051 0.0112227 0.0125858 0.0149097 0.0148382 0.0167135 0.0158097 0.0173971 0.016656 0.0154448 0.0102987 0.00516069 0.00198486 0.00106435 0.000670577 0.000182053 0.000255249 6.99e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1998 1 4 1 2 0 2 100 0.00243925 0.00245975 0.00507461 0.016051 0.0330314 0.0202321 0.0179687 0.014979 0.0114208 0.00741806 0.00652847 0.00710925 0.00840619 0.00920961 0.00743778 0.0045492 0.00191974 0.00111522 0.000687699 0.000189889 0.000202427 5.54e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1999 1 4 1 2 0 2 100 0.0118159 0.0263231 0.0187055 0.0155286 0.0227457 0.0229828 0.0244088 0.0216297 0.0124162 0.00588255 0.00382618 0.00322781 0.00303866 0.0035243 0.00317376 0.00194016 0.000870183 0.00063415 0.000487179 0.000156841 0.000220148 6.25e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2000 1 4 1 2 0 2 100 0.00466328 0.0128735 0.0220007 0.0346399 0.0296759 0.0348844 0.0345076 0.0191617 0.00885483 0.00487404 0.00358711 0.00279995 0.00165749 0.00106849 0.0006229 0.000343241 0.00012032 0.00010209 8.55e-005 3.0032e-005 2.46e-005 9.59e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2001 1 4 1 2 0 2 100 0.00155571 0.00256946 0.0251035 0.0418723 0.0146368 0.0237691 0.0385938 0.0402393 0.038834 0.0281398 0.0178007 0.0108165 0.00583644 0.00303108 0.00160703 0.000916049 0.000223491 9.93e-005 6.53e-005 1.59e-005 1.99e-005 1.1e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2002 1 4 1 2 0 2 100 0.00234756 0.00737198 0.0113349 0.0238934 0.0213687 0.0299532 0.0253784 0.0271244 0.0215055 0.0219186 0.0168715 0.017262 0.0197545 0.0154749 0.00862687 0.00375357 0.00120271 0.000462729 0.000169451 5.72e-005 6.8e-005 5.22e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2003 1 4 1 2 0 2 100 0.00905642 0.0313262 0.0486591 0.0457926 0.0754884 0.0411324 0.0295013 0.0187314 0.0155351 0.0101131 0.00784445 0.00628801 0.00522738 0.00470385 0.00326928 0.00124616 0.00051187 0.000271981 0.000166446 4.4275e-005 3.59e-005 4.8e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2004 1 4 1 2 0 2 100 0.00562194 0.0392287 0.0821272 0.0409387 0.0348942 0.0282481 0.0230792 0.0263041 0.0129726 0.00403747 0.0030035 0.00219864 0.00109699 0.00124327 0.000872614 0.000470688 0.000220641 0.000154702 0.000133094 5.06e-005 5.6067e-005 1.89e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2005 1 4 1 2 0 2 100 0.00191871 0.00770091 0.0112209 0.0388494 0.0413226 0.0375068 0.0351388 0.0443045 0.0316199 0.0125456 0.00850033 0.00982304 0.00720331 0.00327436 0.00104305 0.000414527 0.00012157 9.6553e-005 8.56e-005 3.33e-005 7.44e-005 2.41e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2006 1 4 1 2 0 2 100 0.00438882 0.00925637 0.0313973 0.0535691 0.0252872 0.0180337 0.0251416 0.0298946 0.0249104 0.0166404 0.0117489 0.0145987 0.01011 0.00554414 0.00380686 0.00269226 0.00128361 0.000595433 0.000219708 3.1776e-005 3.97e-005 9.08e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2007 1 4 1 2 0 2 100 0.000582125 0.00331465 0.0157749 0.0243318 0.0402839 0.0554204 0.0422132 0.0299928 0.0165569 0.013713 0.0115133 0.0131757 0.0114181 0.00980502 0.00523321 0.00311219 0.00133955 0.000578811 0.000308278 5.2e-005 5.42e-005 6.15e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2008 1 4 1 2 0 2 100 0.0114112 0.0198232 0.0110663 0.0133695 0.0132872 0.0243794 0.0319997 0.0362767 0.0385816 0.0326221 0.0184354 0.0134578 0.0102909 0.00837577 0.00521577 0.00296193 0.00104864 0.000596271 0.000302001 7.71e-005 0.000100796 3.67e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2009 1 4 1 2 0 2 100 0.0129661 0.0224401 0.039973 0.0300686 0.036089 0.0225883 0.0167328 0.0136982 0.00956489 0.00963947 0.00847686 0.00777855 0.00755756 0.00668949 0.00436567 0.00189412 0.000706571 0.000401652 0.000334135 0.000130855 0.000146673 4.78e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2010 1 4 1 2 0 2 100 0.0103954 0.0177776 0.0194017 0.048196 0.0722267 0.039529 0.0181314 0.0111273 0.00492092 0.00204842 0.00145495 0.00118226 0.00122421 0.00157043 0.00131452 0.000745056 0.000311739 0.000220451 0.000208722 7.235e-005 0.000103247 2.73e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2011 1 4 1 2 0 2 100 0.0117051 0.0127134 0.0159465 0.0249721 0.0255874 0.027926 0.030495 0.0260531 0.0144137 0.00667211 0.00553368 0.00345609 0.00215384 0.00154697 0.00128703 0.000643509 0.000324987 0.000214572 0.000203723 7.19e-005 9.04e-005 2.95e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2012 1 4 1 2 0 2 100 0.00361632 0.0127183 0.0286055 0.022895 0.0143198 0.0146618 0.0192976 0.0195711 0.0136659 0.00854205 0.00604223 0.00554643 0.00319498 0.00149455 0.00119346 0.000593719 0.000194982 9.1095e-005 5.99e-005 1.8003e-005 3.82e-005 1.44e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2013 1 4 1 2 0 2 100 0.00356481 0.0155648 0.0203786 0.0176191 0.0235044 0.01962 0.0177265 0.0123756 0.00840228 0.00787547 0.00776973 0.00748751 0.0051304 0.00240086 0.00192289 0.00103322 0.000360823 0.000153566 0.000100334 2.73e-005 3.49e-005 1.33e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2014 1 4 1 2 0 2 100 0.00399161 0.0188829 0.00795806 0.0210559 0.0413837 0.0210729 0.021556 0.0239474 0.015908 0.0100498 0.00678183 0.00507904 0.00375761 0.00317965 0.00286268 0.00191294 0.000807572 0.000289831 0.000201923 5.01e-005 5.56e-005 1.25e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2015 1 4 1 2 0 2 100 0.0184782 0.0558645 0.0743684 0.0481665 0.0234887 0.0167888 0.0155118 0.0120592 0.00798994 0.00464518 0.00347654 0.00348636 0.00199077 0.0013534 0.000953626 0.000433192 0.000162612 7.75e-005 8.9e-005 4.17e-005 8.62e-005 3.46e-006 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2016 1 4 1 2 0 2 100 0.00647017 0.0656403 0.0900984 0.0860334 0.0639428 0.0310969 0.0145337 0.0087533 0.00405842 0.00243455 0.00248432 0.00218462 0.00157355 0.000841554 0.000481345 0.000297023 0.000105555 4.87e-005 2.9e-005 7.16e-006 1.4386e-005 8.47e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2017 1 4 1 2 0 2 100 0.00676357 0.0281919 0.0475412 0.104799 0.0666216 0.0364082 0.0298115 0.0191918 0.00866347 0.00510498 0.00350821 0.00194449 0.00104316 0.00046023 0.000470392 0.000260991 9.57e-005 4.6143e-005 2.4106e-005 5.11e-006 7.02e-006 9.79e-008 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2018 1 4 1 2 0 2 100 0.00135269 0.00118035 0.0141107 0.048223 0.0634479 0.0817199 0.0617677 0.0373229 0.0209286 0.0118184 0.00842058 0.00656239 0.00346663 0.00228178 0.0010999 0.000486386 0.000111118 3.14e-005 1.31e-005 3.42e-006 5.46e-006 1.96e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 2019 1 4 1 2 0 2 100 0.00135269 0.00118035 0.0141107 0.048223 0.0634479 0.0817199 0.0617677 0.0373229 0.0209286 0.0118184 0.00842058 0.00656239 0.00346663 0.00228178 0.0010999 0.000486386 0.000111118 3.14e-005 1.31e-005 3.42e-006 5.46e-006 1.96e-007 # NMFS_Trawl_1989_male_discard_all_shell_immature
+ 1982 1 3 2 2 0 1 100 0 0 0.000618895 0.00684438 0.0700815 0.20929 0.141697 0.0657965 0.0307524 0.00611227 0.000925449 4.94e-005 1.45e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_mature
+ 1983 1 3 2 2 0 1 100 0 0 0.000318668 0.00965767 0.095971 0.199466 0.106034 0.0392924 0.0126375 0.00312556 0.00017019 2.76e-005 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_mature
+ 1984 1 3 2 2 0 1 100 0 0 0.000323254 0.00617941 0.0491874 0.0934634 0.0654466 0.0306638 0.012952 0.00127643 0.000332379 0.00031611 2.26e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_mature
+ 1985 1 3 2 2 0 1 100 0 0 0.000162788 0.00211076 0.0170356 0.0552296 0.0343392 0.00871329 0.0024163 0.000296327 8.052e-005 0.000132025 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_mature
+ 1986 1 3 2 2 0 1 100 0 0 7.1e-005 0.00116025 0.015098 0.0539788 0.0332276 0.00759989 0.00228929 4.67e-005 0.000122083 0 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_mature
+ 1987 1 3 2 2 0 1 100 0 0 0.000257188 0.00773678 0.0393611 0.0860584 0.0562858 0.0238535 0.0116869 0.00174723 8.26e-005 4e-005 3.18e-006 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_mature
+ 1988 1 3 2 2 0 1 100 0 3.86e-006 0.000692432 0.0128701 0.0616472 0.14198 0.075386 0.0371762 0.0185902 0.00829282 0.000841648 0.000168624 1.34e-005 3.47e-006 2.26e-006 0 0 0 0 0 0 0 # NMFS_Trawl_1982_female_discard_all_shell_mature
+ 1989 1 4 2 2 0 1 100 0 4.29e-005 0.000307571 0.0293381 0.133092 0.198812 0.095268 0.0454837 0.0243108 0.0077339 0.000901218 0.000100861 3.85e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1990 1 4 2 2 0 1 100 0 0 0.000669225 0.0153606 0.0841546 0.162709 0.0873271 0.0433571 0.0247797 0.0065812 0.00148365 0.000227221 3.03e-005 6.89e-006 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1991 1 4 2 2 0 1 100 0 0 0.000749828 0.0108773 0.0892839 0.150077 0.0720951 0.0305665 0.0177405 0.0050158 0.000860878 9.3839e-005 1.46e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1992 1 4 2 2 0 1 100 0 2.03e-005 0.00126637 0.0179458 0.0600454 0.0925764 0.0673017 0.0351003 0.0202876 0.00737803 0.00183021 0.000152522 2.75e-005 6.85e-006 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1993 1 4 2 2 0 1 100 0 3.41e-005 0.00123635 0.0188234 0.070102 0.0832568 0.0332588 0.0121075 0.00980041 0.00433371 0.00101159 4.71e-005 1.45e-005 7.12e-006 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1994 1 4 2 2 0 1 100 0 0 0.000637212 0.022374 0.0624175 0.0665228 0.0486057 0.0285091 0.0100539 0.00242101 0.000382116 5.9e-005 1.89e-005 8.85e-006 1.75e-006 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1995 1 4 2 2 0 1 100 0 0 0.000913426 0.0253944 0.110271 0.144346 0.073039 0.0214963 0.0123385 0.00333781 0.000171936 3.54e-005 1.35e-005 3.41e-006 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1996 1 4 2 2 0 1 100 0 0 0.00199655 0.0452682 0.139797 0.139181 0.064179 0.0215014 0.00707159 0.00173533 0.000166513 9.63e-005 1.69e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1997 1 4 2 2 0 1 100 0 0 0.00472811 0.0418822 0.152543 0.185832 0.103939 0.024272 0.00728089 0.000694272 0.000120639 0.00031768 6.96e-006 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1998 1 4 2 2 0 1 100 0 0 0.00227912 0.0395973 0.144352 0.179617 0.092283 0.0275726 0.00505145 0.00159154 0.000165664 3.45e-005 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1999 1 4 2 2 0 1 100 0 0 0.000228322 0.0169193 0.106436 0.162705 0.0915384 0.0325196 0.00947247 0.00441993 0.000525888 0.000117669 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2000 1 4 2 2 0 1 100 0 0 0.00074789 0.0176913 0.0916848 0.202297 0.157574 0.0397142 0.0113004 0.00614277 0.000194009 6.1951e-005 8.99e-006 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2001 1 4 2 2 0 1 100 0 0 0.000482047 0.00493171 0.039996 0.142231 0.126937 0.0385148 0.0135927 0.00332899 0.00018524 2.91e-005 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2002 1 4 2 2 0 1 100 0 0 2.46e-005 0.00399809 0.063294 0.159903 0.0874641 0.0402332 0.0169279 0.0025282 0.000218579 0.000151559 3.7573e-005 0 1.94e-005 1.94e-005 3.88e-005 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2003 1 4 2 2 0 1 100 0 2.61e-005 7.47e-006 0.00389913 0.0637305 0.110079 0.0825709 0.0237933 0.0116481 0.00101998 0.000160464 5.37e-005 1.18e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2004 1 4 2 2 0 1 100 0 0.00028176 0.00986733 0.0199937 0.05291 0.0866044 0.0489999 0.016319 0.00550273 0.000658788 0.0002366 5.67e-005 1.36e-005 0 4.27e-006 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2005 1 4 2 2 0 1 100 0 0 0.000476885 0.0107153 0.0391572 0.096896 0.0666304 0.0191552 0.00471411 0.00276083 0.000477688 5.14e-005 9.74e-006 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2006 1 4 2 2 0 1 100 0 0 6.49e-005 0.00156582 0.0210944 0.0703375 0.0809127 0.0568565 0.0217054 0.00607423 0.000889902 0.000385502 0 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2007 1 4 2 2 0 1 100 0 0 0.000127547 0.0113699 0.0394078 0.0919995 0.0689482 0.0318764 0.0246248 0.0156344 0.00244723 0.000279141 8.7e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2008 1 4 2 2 0 1 100 0 0 7.5e-005 0.0191281 0.0398735 0.102038 0.07573 0.0661909 0.0434517 0.0133554 0.00125975 0.000148198 2.79e-005 0 1.47e-005 0 8.65e-006 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2009 1 4 2 2 0 1 100 0 0 5.31e-005 0.00385496 0.0266867 0.0791057 0.061908 0.039453 0.025544 0.00920316 0.00175772 0.00011779 9.62e-005 8.95e-006 9.15e-006 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2010 1 4 2 2 0 1 100 0 0 0.00118068 0.0343415 0.0427016 0.0851022 0.049617 0.0172375 0.00805667 0.00157406 0.00012533 2.53e-005 6.09e-006 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2011 1 4 2 2 0 1 100 0 1.49e-005 2.18e-005 0.0282036 0.111099 0.207308 0.103669 0.0325636 0.0121959 0.00295766 0.000243451 1.77e-005 9.31e-006 4.23e-006 3.05e-006 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2012 1 4 2 2 0 1 100 0 4.58e-005 0.00240977 0.0282371 0.136559 0.189113 0.0963104 0.0265286 0.0130156 0.00771203 0.00301864 0.000306032 3.07e-005 4.55e-005 0 5.08e-006 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2013 1 4 2 2 0 1 100 6.18e-006 0.00179532 0.000733816 0.0325921 0.115751 0.192255 0.087205 0.0367353 0.0221152 0.0148751 0.00355852 0.000577047 0.000130027 1.25e-005 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2014 1 4 2 2 0 1 100 0 0 0.000463827 0.0249248 0.0696182 0.120199 0.074399 0.0264601 0.0250442 0.0200207 0.00517866 0.000496062 0.00029703 3.94e-005 0 1.16e-005 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2015 1 4 2 2 0 1 100 0 0 0.000252327 0.00998064 0.0449738 0.0928607 0.0653066 0.0290246 0.0227839 0.0197634 0.00575452 0.000950069 7.85e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2016 1 4 2 2 0 1 100 0 0 3.45e-005 0.0101266 0.0219971 0.0529428 0.0334624 0.0161315 0.0127701 0.00780455 0.00194233 0.000318399 8.53e-005 0 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2017 1 4 2 2 0 1 100 0 0 0.005427 0.0427601 0.0645853 0.07984 0.0423367 0.0127247 0.00586714 0.0013588 0.000329759 2.93e-005 3.4e-006 0.000232515 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2018 1 4 2 2 0 1 100 1.42e-005 2.29e-006 0.000843977 0.0295648 0.0949984 0.10024 0.0359154 0.0121419 0.00520076 0.000535108 0.000117431 1.01e-005 0 1.9e-005 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 2019 1 4 2 2 0 1 100 1.42e-005 2.29e-006 0.000843977 0.0295648 0.0949984 0.10024 0.0359154 0.0121419 0.00520076 0.000535108 0.000117431 1.01e-005 0 1.9e-005 0 0 0 0 0 0 0 0 # NMFS_Trawl_1989_female_discard_all_shell_mature
+ 1982 1 3 1 2 0 1 100 0 0 0 0.000715395 0.00459804 0.0147339 0.0237057 0.024996 0.0226643 0.0248175 0.0260081 0.0187945 0.0139048 0.0110093 0.00945191 0.00784434 0.00405063 0.00244167 0.000934569 0.000644255 0.000262847 0.000133288 # NMFS_Trawl_1982_male_discard_all_shell_mature
+ 1983 1 3 1 2 0 1 100 1.9553e-005 3.79e-005 3.76e-005 0.000495746 0.00383098 0.0119561 0.0222489 0.0260861 0.0233067 0.0213331 0.0205839 0.0182467 0.0185551 0.0181751 0.0140518 0.0101668 0.00730687 0.00363999 0.00144351 0.000750247 0.000257024 6.78e-005 # NMFS_Trawl_1982_male_discard_all_shell_mature
+ 1984 1 3 1 2 0 1 100 1.99e-005 4.53e-005 0 0.00322934 0.0116438 0.0103756 0.0144034 0.0155094 0.0148093 0.0159983 0.0178246 0.0156095 0.0145527 0.0177642 0.0189154 0.0165118 0.0165931 0.0130166 0.00809668 0.00400167 0.00109798 0.00038404 # NMFS_Trawl_1982_male_discard_all_shell_mature
+ 1985 1 3 1 2 0 1 100 0 0 0 0.0052366 0.00768776 0.00957537 0.0134334 0.0158832 0.0117129 0.0133253 0.0173818 0.0165541 0.0167375 0.0172676 0.0191216 0.0216698 0.0217429 0.0204607 0.0143026 0.00740534 0.00160914 0.000462611 # NMFS_Trawl_1982_male_discard_all_shell_mature
+ 1986 1 3 1 2 0 1 100 0 2.39e-005 1.62e-005 0.00345855 0.00657919 0.0118052 0.0151686 0.0152146 0.0127941 0.0116527 0.0103948 0.00849219 0.00607986 0.0063721 0.00740388 0.00844839 0.008678 0.00804637 0.00536796 0.00308087 0.000887937 0.000266359 # NMFS_Trawl_1982_male_discard_all_shell_mature
+ 1987 1 3 1 2 0 1 100 0 0 0 0.00563583 0.0092816 0.0107081 0.0144207 0.0125102 0.00851677 0.0072063 0.0069424 0.0052403 0.00424937 0.0049589 0.00499367 0.00513451 0.00420857 0.00294335 0.00198617 0.000978001 0.000334854 8.7915e-005 # NMFS_Trawl_1982_male_discard_all_shell_mature
+ 1988 1 3 1 2 0 1 100 1.53e-005 0 0.000124031 0.00322671 0.00901902 0.0167449 0.0198275 0.0187906 0.0134446 0.0139216 0.0120648 0.00925844 0.00640123 0.00650902 0.00653949 0.00676333 0.00549059 0.00433952 0.00339396 0.00225994 0.00107102 0.000276204 # NMFS_Trawl_1982_male_discard_all_shell_mature
+ 1989 1 4 1 2 0 1 100 7.64e-006 0.000169021 0.000248503 0.00290697 0.00682588 0.0109224 0.0141351 0.0160768 0.0190024 0.0199964 0.0167189 0.0117967 0.00894008 0.00845443 0.00818653 0.00701679 0.00550945 0.00335039 0.00225974 0.00147089 0.000490446 0.0002519 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1990 1 4 1 2 0 1 100 0 0 8.29e-006 0.00138962 0.00412186 0.00867058 0.0121174 0.0126273 0.0122465 0.0128038 0.0126519 0.0119317 0.0123466 0.0184199 0.0216884 0.0202805 0.0148649 0.00998974 0.0075955 0.00385549 0.00138598 0.000756098 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1991 1 4 1 2 0 1 100 2.01e-005 0 0 0.00253581 0.00618102 0.00701371 0.0113411 0.012201 0.00918471 0.00734729 0.00735359 0.00680097 0.00780619 0.0110566 0.0104087 0.00898656 0.00839473 0.0103805 0.00858869 0.00664851 0.00288679 0.0015483 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1992 1 4 1 2 0 1 100 7.08e-006 0 0.000217581 0.00537262 0.0129215 0.00887243 0.00675174 0.00775677 0.00725151 0.00628277 0.00743115 0.00613099 0.00552109 0.00573818 0.00591083 0.0065162 0.00694434 0.0072786 0.00616137 0.00420926 0.0016451 0.000845203 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1993 1 4 1 2 0 1 100 4.81e-006 0 0.000204726 0.00528484 0.0118514 0.0163468 0.0157998 0.0119655 0.007067 0.00527617 0.00433104 0.00320817 0.00259489 0.00276596 0.00305757 0.00328478 0.00279964 0.00269552 0.00221244 0.00135496 0.000471816 0.00029977 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1994 1 4 1 2 0 1 100 0 0.000471396 0.00152972 0.00584043 0.00897067 0.015048 0.0187091 0.0174929 0.0138219 0.011348 0.00860422 0.00543123 0.00333556 0.00289055 0.00217883 0.00240876 0.00178769 0.00160088 0.00142439 0.000900346 0.000424941 0.0001478 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1995 1 4 1 2 0 1 100 0 0 0.000697993 0.0034153 0.00989174 0.0194976 0.0231464 0.0277363 0.0234418 0.0217367 0.0152987 0.00974453 0.00667876 0.00519501 0.00434428 0.00343508 0.00217672 0.0016158 0.00119571 0.000630202 0.000202743 6.28e-005 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1996 1 4 1 2 0 1 100 0 1.83e-005 0.000176427 0.00212764 0.00567072 0.0108772 0.0199368 0.0281026 0.0302815 0.0295496 0.0281898 0.0212032 0.0172545 0.0167845 0.013717 0.0124801 0.00969655 0.00612136 0.00328717 0.00160913 0.000566644 0.000257606 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1997 1 4 1 2 0 1 100 2.75e-005 0 0 0.000419625 0.0021075 0.00515426 0.00868419 0.0159733 0.0199785 0.0265404 0.0260252 0.0237055 0.022008 0.0213196 0.0211756 0.0198814 0.0192479 0.0165814 0.0111015 0.0064512 0.00277959 0.00109335 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1998 1 4 1 2 0 1 100 2.75e-005 0 1.36e-005 0.00116422 0.00582139 0.0062091 0.00890741 0.011276 0.0135816 0.0138786 0.0137172 0.0132729 0.0140229 0.0157569 0.0172933 0.0189816 0.018685 0.0175437 0.0119075 0.00719061 0.00249121 0.000930529 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 1999 1 4 1 2 0 1 100 0.000175885 0.00028681 3.06e-005 0.00126082 0.00409107 0.0081937 0.0127188 0.0177675 0.0169372 0.015605 0.014525 0.0141358 0.014258 0.0167668 0.0210983 0.0182821 0.0155583 0.015206 0.0114067 0.00730783 0.00306567 0.00118625 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2000 1 4 1 2 0 1 100 1.67e-005 7.67e-005 0.000171035 0.00391666 0.00798012 0.0136916 0.0164359 0.0139939 0.00863271 0.00750123 0.00741088 0.00644964 0.0066686 0.00681612 0.00777539 0.00786878 0.00574 0.00543193 0.00367083 0.0021856 0.000588796 0.000332519 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2001 1 4 1 2 0 1 100 0 0 0.000184319 0.00325481 0.00321643 0.0111573 0.0186148 0.0273144 0.0287456 0.0253994 0.0195632 0.012141 0.00801126 0.00867316 0.00768954 0.00809626 0.0059246 0.00482655 0.00284891 0.00153229 0.00073678 0.000268304 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2002 1 4 1 2 0 1 100 0 0 4.29e-005 0.00180044 0.00391511 0.0113092 0.0152432 0.0222977 0.0223172 0.0271861 0.0223771 0.0201056 0.0207124 0.020643 0.0196978 0.0189262 0.0152386 0.00994774 0.00506448 0.00322451 0.00098349 0.000301749 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2003 1 4 1 2 0 1 100 0 2.22e-005 0 0.00319669 0.0129236 0.0114085 0.0115533 0.0108517 0.0119407 0.0111685 0.0104954 0.00881332 0.00777232 0.00857858 0.00865158 0.00736249 0.00670386 0.00546224 0.00336833 0.00187338 0.000452947 0.000124847 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2004 1 4 1 2 0 1 100 7.28e-005 7.67e-005 0.00053884 0.0037243 0.00691152 0.0112028 0.0113716 0.0151246 0.00966699 0.00541434 0.00492764 0.00408919 0.00319261 0.00404876 0.00374825 0.00349742 0.00336884 0.00314561 0.00263334 0.00209903 0.000648192 0.000307122 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2005 1 4 1 2 0 1 100 4.99e-005 1.18e-005 0 0.00285912 0.00750104 0.0107024 0.0138568 0.0233363 0.019707 0.012113 0.00887925 0.00903237 0.00812044 0.00504663 0.00349556 0.00319887 0.00272966 0.00294662 0.00254477 0.00176855 0.00110565 0.000428395 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2006 1 4 1 2 0 1 100 0.000470785 0.000941535 0.000155871 0.00392052 0.00518749 0.00712943 0.0131193 0.0217079 0.019042 0.0164448 0.0135083 0.0138489 0.0104001 0.00820249 0.00819896 0.0107851 0.0126042 0.0108799 0.00548445 0.00249052 0.00146893 0.000421229 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2007 1 4 1 2 0 1 100 0 0 0 0.00187371 0.00819391 0.0180392 0.0178525 0.0195234 0.0147145 0.0137764 0.0133475 0.0140365 0.012502 0.0126955 0.0114461 0.0127631 0.0138846 0.0101157 0.00589531 0.00243902 0.000876148 0.000208951 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2008 1 4 1 2 0 1 100 0 4.14e-005 0 0.00124164 0.00292485 0.00791407 0.016367 0.0244405 0.0277217 0.027395 0.0194454 0.0136734 0.0126722 0.0121204 0.0127633 0.0154946 0.0142712 0.0122934 0.00603818 0.00340568 0.00125446 0.000626297 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2009 1 4 1 2 0 1 100 0 0 0 0.00222991 0.00638738 0.00760981 0.0096056 0.0121175 0.00999291 0.010895 0.0107191 0.0104909 0.0102588 0.0105936 0.0127678 0.0127608 0.0115275 0.00819998 0.00636866 0.00486604 0.00169821 0.000758165 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2010 1 4 1 2 0 1 100 0 0 2.94e-005 0.00338967 0.0142758 0.0163627 0.00982564 0.0118547 0.00546908 0.00533989 0.00566894 0.00288639 0.00360956 0.00276244 0.00322524 0.00374135 0.00374899 0.00384194 0.00362283 0.00257259 0.00118394 0.000425667 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2011 1 4 1 2 0 1 100 0 0.000145743 7.12e-006 0.00197094 0.00483547 0.00880298 0.0135218 0.0147536 0.011293 0.00736687 0.0064581 0.00409402 0.00298693 0.00299636 0.0038363 0.00416638 0.00496634 0.00489807 0.00478571 0.00349335 0.00124805 0.000596029 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2012 1 4 1 2 0 1 100 0 7.47e-006 0.000129527 0.0026827 0.00544892 0.0083968 0.0114245 0.01344 0.0117209 0.0102402 0.00785551 0.00629385 0.00405838 0.00268037 0.0037688 0.00425677 0.00372203 0.00348211 0.00282117 0.00184917 0.000950519 0.000360097 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2013 1 4 1 2 0 1 100 0 6.68e-005 9.76e-005 0.00141342 0.00427655 0.00668578 0.00823014 0.00832944 0.00688276 0.0077612 0.00885186 0.00748829 0.0052946 0.00345043 0.00459297 0.00495397 0.0045616 0.00329066 0.00239475 0.00146816 0.000534657 0.000320836 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2014 1 4 1 2 0 1 100 0 4.47e-006 5.44e-006 0.00158766 0.00771555 0.00632777 0.011124 0.0154911 0.0119291 0.0108717 0.0100366 0.00724746 0.00533498 0.00500129 0.00629459 0.00834043 0.00842686 0.00507065 0.00380088 0.00209624 0.000796853 0.000280023 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2015 1 4 1 2 0 1 100 0 1.09e-005 0.00010142 0.00343711 0.00413602 0.00505845 0.00774866 0.00778863 0.00723241 0.00658887 0.00610558 0.00541071 0.00394529 0.00349187 0.0037873 0.00356816 0.00312048 0.00228844 0.00194162 0.0017213 0.00097553 0.000576656 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2016 1 4 1 2 0 1 100 0 0 8.08e-005 0.00612096 0.0110922 0.00882791 0.00642359 0.00530206 0.00337357 0.0035396 0.00387707 0.00349053 0.0031525 0.00257522 0.00253138 0.00234538 0.00195288 0.00134006 0.000937114 0.000510714 0.000297928 0.000233912 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2017 1 4 1 2 0 1 100 0 0 3.37e-006 0.00732337 0.0117706 0.0105962 0.0123341 0.0101985 0.00607241 0.00501137 0.00432304 0.00237014 0.00177972 0.00124745 0.00147323 0.00144305 0.00122447 0.000977696 0.000561649 0.000302249 0.000152729 3.09e-005 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2018 1 4 1 2 0 1 100 0 2.33e-006 2.94e-005 0.00387706 0.012401 0.0245845 0.0255434 0.0208555 0.0130966 0.00966548 0.00765076 0.00544663 0.00320212 0.00261209 0.00212489 0.00201426 0.00128629 0.00071415 0.000351133 0.000184716 9.7095e-005 4.51e-005 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2019 1 4 1 2 0 1 100 0 2.33e-006 2.94e-005 0.00387706 0.012401 0.0245845 0.0255434 0.0208555 0.0130966 0.00966548 0.00765076 0.00544663 0.00320212 0.00261209 0.00212489 0.00201426 0.00128629 0.00071415 0.000351133 0.000184716 9.7095e-005 4.51e-005 # NMFS_Trawl_1989_male_discard_all_shell_mature
+ 2009 1 5 1 2 0 1 100 0 0 0 0.00123895 0.000863698 0.00354142 0.0138325 0.0405722 0.0612637 0.0782127 0.0835986 0.0838766 0.0948849 0.120535 0.125 0.111367 0.0657957 0.04604 0.0276186 0.0233292 0.0107349 0.0076948 # BSFRF_2009_male_discard_all_shell_mature
+ 2009 1 5 2 2 0 1 100 0.00524447 0.0279686 0.0614698 0.0589286 0.0589166 0.206908 0.235967 0.215469 0.103767 0.0177803 0.00457571 0.00230139 0.00070461 0 0 0 0 0 0 0 0 0 # BSFRF_2009_female_discard_all_shell_mature
+ 2009 1 6 1 2 0 1 100 0 0 0 0.00121483 0.000443192 0.00210236 0.00923343 0.0236276 0.0301234 0.0637213 0.0666041 0.0578028 0.0777913 0.111178 0.12534 0.0966703 0.0947766 0.0645442 0.0637228 0.0581462 0.0353208 0.0176369 # NMFS_2009_male_discard_all_shell_mature
+ 2009 1 6 2 2 0 1 100 7.57e-005 0.000557172 0.00494075 0.017821 0.0804616 0.311844 0.339763 0.169158 0.056883 0.0148072 0.00283487 0.000590569 0.000262684 0 0 0 0 0 0 0 0 0 # NMFS_2009_female_discard_all_shell_mature
+ 2010 1 7 1 2 0 1 100 0.0729794 0.0560361 0.048134 0.0883449 0.16404 0.155726 0.0838595 0.0719951 0.0486746 0.0390989 0.0299999 0.0216997 0.0189765 0.0219629 0.022603 0.0190866 0.0147812 0.0100935 0.00729843 0.00300699 0.00146586 0.000137143 # BSFRF_2010_male_discard_all_shell_mature
+ 2010 1 7 2 2 0 1 100 0.110214 0.0735244 0.0610111 0.175944 0.213832 0.189989 0.118322 0.0368785 0.0161003 0.00348003 0.000576815 0.000127459 0 0 0 0 0 0 0 0 0 0 # BSFRF_2010_female_discard_all_shell_mature
+ 2010 1 8 1 2 0 1 100 0.0133053 0.0346564 0.0424762 0.133925 0.232818 0.180318 0.0925156 0.0724639 0.0276657 0.0271599 0.0262797 0.0140266 0.0187982 0.0153707 0.0160696 0.0151804 0.0109822 0.0101481 0.00776998 0.00526842 0.00225674 0.000545166 # NMFS_2010_male_discard_all_shell_mature
+ 2010 1 8 2 2 0 1 100 0.0110753 0.0215302 0.0485469 0.236366 0.316238 0.200714 0.112622 0.033589 0.0168789 0.00237463 4.43e-005 1.14e-005 1.02e-005 0 0 0 0 0 0 0 0 0 # NMFS_2010_female_discard_all_shell_mature
+## Size increments
+# GrowthObsType
+1
+# nGrowthObs
+110
+# Pre-molt_size Sex size-increment CV
+ 16.1 1 6.9 0.03
+ 19.2 1 7.4 0.03
+ 19.8 1 6.7 0.03
+ 20 1 6.3 0.03
+ 20 1 6.3 0.03
+ 20.1 1 7.9 0.03
+ 20.3 1 6.1 0.03
+ 20.6 1 8.3 0.03
+ 20.7 1 7 0.03
+ 20.7 1 8.5 0.03
+ 21 1 6.8 0.03
+ 21.23 1 5.18 0.03
+ 21.9 1 6.5 0.03
+ 22.2 1 5.9 0.03
+ 23.48 1 4.79 0.03
+ 24 1 8.3 0.03
+ 25.2 1 7.6 0.03
+ 25.6 1 5.8 0.03
+ 25.9 1 5.2 0.03
+ 26 1 6.2 0.03
+ 29.9 1 10 0.03
+ 30.3 1 10 0.03
+ 30.7 1 9.8 0.03
+ 44.2 1 14.5 0.03
+ 44.7 1 12.6 0.03
+ 56.5 1 13.5 0.03
+ 57 1 13 0.03
+ 57.63 1 10.97 0.03
+ 58.7 1 13.8 0.03
+ 59.3 1 15.8 0.03
+ 60.3 1 14.8 0.03
+ 60.8 1 17.6 0.03
+ 62.3 1 19.5 0.03
+ 64 1 20.7 0.03
+ 64.7 1 18 0.03
+ 67.6 1 18.4 0.03
+ 67.9 1 17.4 0.03
+ 74.5 1 19.4 0.03
+ 79.9 1 17.9 0.03
+ 89.8 1 20.2 0.03
+ 89.9 1 22.2 0.03
+ 89.9 1 22.4 0.03
+ 93.8 1 23.8 0.03
+ 18.6 2 6.6 0.03
+ 19.3 2 5.9 0.03
+ 19.37 2 4.87 0.03
+ 19.8 2 7.1 0.03
+ 20.2 2 4.7 0.03
+ 20.3 2 5.9 0.03
+ 20.4 2 6 0.03
+ 20.4 2 6.3 0.03
+ 20.6 2 4.5 0.03
+ 20.7 2 6.3 0.03
+ 20.7 2 6.7 0.03
+ 20.8 2 6.5 0.03
+ 20.8 2 6.5 0.03
+ 20.8 2 6.8 0.03
+ 21.25 2 7.48 0.03
+ 21.4 2 6.6 0.03
+ 21.6 2 6.1 0.03
+ 21.94 2 6.77 0.03
+ 22 2 6.2 0.03
+ 22.2 2 7.5 0.03
+ 22.3 2 7.1 0.03
+ 22.8 2 6.8 0.03
+ 22.8 2 7.4 0.03
+ 22.9 2 5.7 0.03
+ 23 2 8.2 0.03
+ 23.09 2 6.17 0.03
+ 24.2 2 6.7 0.03
+ 24.2 2 7.2 0.03
+ 24.4 2 6.3 0.03
+ 25.2 2 6.8 0.03
+ 25.4 2 6.3 0.03
+ 25.5 2 9.1 0.03
+ 25.5 2 7.4 0.03
+ 25.7 2 6.8 0.03
+ 25.9 2 6.8 0.03
+ 26 2 7.1 0.03
+ 26.2 2 6.4 0.03
+ 26.4 2 5.4 0.03
+ 26.5 2 7.4 0.03
+ 26.9 2 7.5 0.03
+ 26.9 2 7.6 0.03
+ 27.4 2 7.7 0.03
+ 27.5 2 7.3 0.03
+ 28.1 2 6.4 0.03
+ 28.2 2 8.02 0.03
+ 28.2 2 7.6 0.03
+ 28.7 2 8.4 0.03
+ 28.7 2 7.3 0.03
+ 29 2 7.7 0.03
+ 29.1 2 9.3 0.03
+ 29.4 2 7.3 0.03
+ 29.5 2 8.9 0.03
+ 30.9 2 7.5 0.03
+ 32.8 2 12.1 0.03
+ 34.9 2 9.9 0.03
+ 35.3 2 12.3 0.03
+ 38.3 2 12.6 0.03
+ 38.9 2 14.1 0.03
+ 41 2 14.8 0.03
+ 42.1 2 12.5 0.03
+ 44.2 2 15.3 0.03
+ 44.3 2 15 0.03
+ 44.8 2 14.9 0.03
+ 45.2 2 14.4 0.03
+ 46.9 2 13.5 0.03
+ 47 2 14.4 0.03
+ 47.9 2 13.5 0.03
+# eof
+9999
